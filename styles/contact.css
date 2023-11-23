@@ -1,0 +1,59 @@
+.contact {
+    padding: 3rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+  
+  .contactform,
+  .contactInfo {
+    width: 50%;
+  }
+  
+  .checkArea {
+    display: flex;
+    align-items: center;
+    gap: .5rem
+  }
+  
+  .contactform input[type=text],
+  .contactform input[type=email],
+  .contactform textarea {
+    width: 100%;
+  }
+  
+  .contactform input[type=checkbox] {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+  
+  .contactform input {
+    height: 2rem;
+    margin-bottom: .8rem;
+    padding: .5rem;
+  }
+  
+  .contactform form div .checkArea label {
+    margin-bottom: .8rem;
+  }
+  
+  .contactform form textarea {
+    height: 5rem;
+    padding: .5rem;
+  }
+  
+  
+  .submitBtn {
+    width: 30%;
+    padding: .5rem;
+    background-color: #d9d9d9;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  
+  .contactInfo h1 {
+    margin-bottom: 2rem;
+  }
