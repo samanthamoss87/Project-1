@@ -1,0 +1,68 @@
+.servicegrid {
+    width: 100%;
+    padding: 3rem 5rem;
+  }
+  
+  
+  .grid1 {
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .video,
+  .list {
+    width: 50%;
+  }
+  
+  
+  .grid1 .video {
+    height: 300px;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+  }
+  
+  .grid1 video {
+    height: 100%;
+    width: 400px;
+  }
+  
+  
+  .list {
+    margin-left: 3rem;
+  }
+  
+  .list h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .grid2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  
+  .grid2 .text,
+  .grid2 .image {
+    width: 50%;
+  }
+  
+  .grid2 .image {
+    height: 300px;
+  }
+  
+  .grid2 .image img {
+    width: 400px;
+  }
+  
+  .grid2 .text {
+    text-align: right;
+    margin-right: 3rem;
+  }
+  
+  .grid2 .text h2 {
+    margin-bottom: 1rem;
+  }
