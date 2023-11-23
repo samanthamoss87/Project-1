@@ -1,0 +1,28 @@
+.industry {
+    padding: 3rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .industry .industry-card {
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 0 50px #d9d9d9;
+    width: 40%;
+    height: 400px;
+    padding: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: .5rem;
+  }
+  
+  .industry .industry-card:hover {
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+  }
+  
+  .industry .industry-card h1 {
+    margin-bottom: 1rem
+  }
