@@ -1,3 +1,11 @@
+.servicesummary {
+  width: 100%;
+  padding: 3rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
 .servicegrid {
     width: 100%;
     padding: 3rem 5rem;
