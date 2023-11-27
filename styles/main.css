@@ -64,7 +64,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
   }
   
   nav .links a:hover {
@@ -249,4 +249,20 @@ nav {
   }
   .aboutus .abouttext {
     flex: 1;
+  }
+
+  /* Global footer styles  */
+  footer {
+    background-color: #d9d9d9;
+    padding: .8rem 0;
+    text-align: center;
+  }
+  footer .footerlinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  footer .footerlinks a:hover {
+    color: blue;
   }
