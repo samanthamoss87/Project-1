@@ -18,11 +18,10 @@
     - [Libraries](#libraries)
     - [Platforms](#platforms)
     - [Other Tools](#other-tools)
-5. [Deployment & Local Developmemnt](#deployment--local-development)
-    - [Deployment](#deployment)
-    - [Local Deployment](#local-deployment)
-        - [How to Fork](#how-to-fork)
-        - [How to Clone](#how-to-clone)
+5. [Local Development & Deployment](#local-development--deployment)
+    - [Local Development](#local-development)
+        - [Local Preperation](#local-preperation)
+        - [Local Instruction](#local-instruction)
 6. [Testing](#testing)
 7. [Credits](#credits)
     - [Code used](#code-used)
@@ -83,11 +82,41 @@
 ## Other Tools
 - [Figma](figma.com)
     - Wireframe design
-# Deployment & Local Development
-## Deployment
-## Local Deployment
-### How to fork
-### How to clone
+# Local Development & Deployment
+
+## Local Development
+
+### Local Preperation
+**Requirements**
+- IDE like [Visual Studio Code](https://code.visualstudio.com/download)
+- [Git](https://git-scm.com/)
+- [Python](https://www.python.org/downloads/)
+
+### Local Instruction
+1. Clone the repository and go inside the folder
+```
+git clone https://github.com/samanthamoss87/Project-1.git
+```
+2. Open your IDE and open the folder you just cloned
+3. Open terminal on the IDE and run this command to run the project
+```
+python3 -m http.server
+```
+4. Enjoy the site
+
+## Github Deployment
+### Github Preperation
+- Create a free Github account 
+
+### Github Instruction
+1. Login into your Github account 
+2. Setup your repository
+3. `git add .`, `git commit -m "your commit message"` and `git push` to the repository
+4. Go to the **Setting** page of the repository 
+5. Scroll down to the **Github Pages** section
+6. Select the Master branch as the source and **Confirm** the selection 
+7. Wait a few minutes and check the URL you are having on the page 
+
 
 # Testing
 
