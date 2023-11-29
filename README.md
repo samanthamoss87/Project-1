@@ -40,10 +40,23 @@
     <img src="./img/readmeImg/Color Palatte.png" alt="Colour Palatte">
 </div> 
 
-- #000000 was used in all the font text, #0000FF was used for highlight the font in the hover in the header and footer, #83C2FB was used as a backing to the image on the About us page, #FFFFFF was the main background on all ages, #D9D9D9 was used in the boarder and footer.
+- #000000 was used in all the font text
+- #0000FF was used for highlight the font in the hover in the header and footer
+- #83C2FB was used as a backing to the image on the About us page
+- #FFFFFF was the main background on all ages
+- #D9D9D9 was used in the boarder, header and footer
 
 ## Typography
+
+<div align="center"> 
+    <img src="./img/readmeImg/font style.png" alt="Font Style">
+</div> 
+
+- My primary font is [Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) which is on all pages of the website
+
 ## Imagery
+
+
 ## Wireframes
 - [Link to Wireframes](https://www.figma.com/file/OR9ALOmeSW29mY6VmIh4jx/Webpage-frontcover?type=design&node-id=0%3A1&mode=design&t=VkHTziaTuZjlnrDv-1)
     - This is the inital design i created. I was going to implement a Management page in this project, but as i wanted it to sit in the About us section as an accordian which i know is a Javascript element so i decided to wait for project 2 to implement.  
