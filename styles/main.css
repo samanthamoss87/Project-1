@@ -43,11 +43,16 @@ ul li {
 
 /* nav bar styles */
 nav {
-    padding: 10px 40px;
+  width: 100%;  
+  padding: 10px 40px;
     background-color: #d9d9d9;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
   }
   
   nav .logo {
