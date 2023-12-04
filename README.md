@@ -73,8 +73,18 @@
 <div align="center"> 
     <img src="./img/readmeImg/Navbar.png" alt="Nav bar">
 </div> 
-- This Nav bar is on all 5 pages with the minimal design 
-- This Nav bar is fixed in place, so when you scroll down you can still access all pages
+
+- This Nav bar is on all 5 pages with the minimal design. 
+- This Nav bar is fixed in place, so when you scroll down you can still access all pages.
+
+**Footer**
+<div align="center"> 
+    <img src="./img/readmeImg/footer.png" alt="Footer">
+</div> 
+
+- This footer is also accessible on all pages.
+- The footer also holds the Terms and Conditions, Privacy policy, Cookies Policy and MDS Policy.
+- The is aligned in to the middle of the screen and has a blue Hoover to highlight and access the links to the external documents.
 
 ## Future Implementations
 ## Accessbility
