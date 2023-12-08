@@ -86,8 +86,21 @@
 - The footer also holds the Terms and Conditions, Privacy policy, Cookies Policy and MDS Policy.
 - The is aligned in to the middle of the screen and has a blue Hoover to highlight and access the links to the external documents.
 
+**Banner**
+<div align="center"> 
+    <img src="./img/readmeImg/Master Banner.png" alt="Master Banner">
+</div> 
+
+- This Banner is on all pages except the main page
+- The Banner is on every page for continuity throughout the website and to highlight we specialise in Technolgy including API's. 
+
 ## Future Implementations
 ## Accessbility
+**Audio**
+
+- I created Audio script on the main sections of the website for Visually impaired people and people with learning difficulties. After doing some reseach and talking to people who was effected by been visually impairment and a Managing Director of a blind charity for children they commented saying it was forward thinking and really positive approach to be inclusive of all individuals. They mentioned they wish all websites would adopt a similar approach. 
+- As my website expanded i will increase the amount of Audio where required. 
+- I also created the NAV Bar to be fixed on all pages, so it is easy to access all elements no matter what page you are on. 
 
 # Technologies used
 ## Languages
