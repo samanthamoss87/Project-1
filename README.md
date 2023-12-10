@@ -42,7 +42,7 @@
 # Design
 ## Colour Scheme
 <div align="center"> 
-    <img src="./img/readmeImg/Color Palatte.png" alt="Colour Palatte">
+    <img src="./img/readmeImg/colorpalatte.png" alt="Colour Palatte">
 </div> 
 
 - #000000 was used in all the font text
@@ -54,7 +54,7 @@
 ## Typography
 
 <div align="center"> 
-    <img src="./img/readmeImg/font style.png" alt="Font Style">
+    <img src="./img/readmeImg/fontstyle.png" alt="Font Style">
 </div> 
 
 - My primary font is [Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) which is on all pages of the website
@@ -71,7 +71,7 @@
 ### All pages
 **Nav Bar**
 <div align="center"> 
-    <img src="./img/readmeImg/Navbar.png" alt="Nav bar">
+    <img src="./img/readmeImg/navbar.png" alt="Nav bar">
 </div> 
 
 - This Nav bar is on all 5 pages with the minimal design. 
@@ -88,7 +88,7 @@
 
 **Banner**
 <div align="center"> 
-    <img src="./img/readmeImg/Master Banner.png" alt="Master Banner">
+    <img src="./img/readmeImg/masterbanner.png" alt="Master Banner">
 </div> 
 
 - This Banner is on all pages except the main page
