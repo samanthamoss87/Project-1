@@ -38,8 +38,14 @@
     <section class="contact">
       <div class="contactform">
         <form>
-          <input type="text" placeholder="Name" required>
-          <input type="email" placeholder="Email" required>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" required>
+          </div>
           <div>
             <div class="checkArea">
               <input type="checkbox">
@@ -58,7 +64,10 @@
               <label for="telematics">Telematics</label>
             </div>
           </div>
-          <textarea placeholder="Message" required></textarea>
+          <div>
+            <label for="message">Message</label>
+            <textarea name="message" required></textarea>
+          </div>
           <button type="submit" class="submitBtn">Submit</button>
         </form>
       </div>
@@ -79,10 +88,10 @@
 
   <footer>
     <div class="footerlinks">
-      <a href="termsandconditions.html">  Terms and Conditions</a> 
-        <a href="privacypolicy.html">  Privacy Policy</a>
-        <a href="cookies.html">  Cookies</a>
-        <a href="moderndayslavery.html">  MDS Policy</a> 
+      <a href="termsandconditions.html"> Terms and Conditions</a>
+      <a href="privacypolicy.html"> Privacy Policy</a>
+      <a href="cookies.html"> Cookies</a>
+      <a href="moderndayslavery.html"> MDS Policy</a>
     </div>
   </footer>
 
