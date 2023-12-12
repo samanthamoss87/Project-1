@@ -34,7 +34,7 @@
   
   .grid1 video {
     height: 100%;
-    width: 400px;
+    width: 100%;
   }
   
   
@@ -63,7 +63,8 @@
   }
   
   .grid2 .image img {
-    width: 400px;
+    width: 100;
+    height: 100%;
   }
   
   .grid2 .text {
@@ -73,4 +74,9 @@
   
   .grid2 .text h2 {
     margin-bottom: 1rem;
+  }
+
+  /* Media queries for phone */
+  @media screen and (max-width:768px) {
+    
   }

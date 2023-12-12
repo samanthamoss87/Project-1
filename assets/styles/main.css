@@ -20,7 +20,7 @@ ul li {
 
 /* common banner design */
 .banner {
-  margin-top: 60px;
+  margin-top: 55px;
   width: 100%;
   height: 150px;
   position: relative
@@ -77,32 +77,61 @@ nav .links a:hover {
   color: blue;
 }
 
-nav .search {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+/* hamburger nav */
+nav .sidemenu {
+  display: none;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  position: relative;
 }
 
-nav .search .seach-icon {
-  height: 20px;
-  width: 20px;
+nav .hamicon {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translate(-50%);
+  display: none;
 }
 
-nav .search .seach-icon img {
+nav .ham-line {
+  background-color: black;
+  display:block;
+  position: relative;
+  height: 2px;
+  width: 24px;
+}
+
+.ham-line::after, 
+.ham-line::before {
+  position: absolute;
+  content: "";
+  background-color: black;
+  display:block;
   width: 100%;
+  height: 100%;
 }
 
-nav .search .lang {
-  height: 20px;
-  width: 20px;
-  display: flex;
-  align-items: center;
-  gap: 6px;
+.ham-line::before {
+top: 5px;
 }
 
-nav .search .lang img {
+.ham-line::after {
+  top: -5px;
+}
+
+.mobilemenu {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
   width: 100%;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+}
+.sidemenu:checked ~ .mobilemenu {
+  display:block;
 }
 
 /* hero style */
@@ -120,6 +149,17 @@ nav .search .lang img {
   top: 0;
   left: 0;
   object-fit: cover;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 2.5rem;
+  color: white;
+  opacity: .8;
+  
 }
 
 /* get in touch styles */
@@ -161,13 +201,18 @@ nav .search .lang img {
   font-size: 1.4rem;
 }
 
-.getintouch .getintouchpic .get-in-touch button {
+.getintouch .getintouchpic .get-in-touch a {
   padding: .5rem 2rem;
   border-radius: 50px;
   border: 1px solid #d9d9d9;
   outline: none;
   cursor: pointer;
+  background-color: white;
 }
+
+.getintouch .getintouchpic .get-in-touch a:hover {
+  background-color: white;
+} 
 
 /* info section */
 
@@ -216,8 +261,7 @@ nav .search .lang img {
   border: 1px solid #d9d9d9;
   box-shadow: 0 0 50px #d9d9d9;
   width: 100%;
-  height: 100px;
-  padding: 20%;
+  padding: 40px;
   text-align: center;
 }
 
@@ -237,4 +281,59 @@ footer .footerlinks {
 
 footer .footerlinks a:hover {
   color: blue;
+}
+
+/* Media queries for phone */
+@media screen and (max-width:768px) {
+  nav .ham {
+    display: block;
+  } 
+  nav .links, 
+  nav .contactlink {
+    display: none;
+  }
+  nav .hamicon {
+    display: block;
+  }
+  .sidemenu:checked ~ .mobilemenu {
+    display:block;
+    background-color: white;
+  }
+  .mobilemenulinks {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .hero video {
+    max-width: 100%;
+  }
+  .hero h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .get-in-touch {
+    flex-direction: column;
+  }
+  .getintouch .getintouchpic img {
+    padding: 0 20px;
+  }
+  .getintouch .getintouchpic .get-in-touch p {
+    font-size: .8rem;
+    width: 100%;
+    padding: 10px;
+  }
+  .getintouch .getintouchpic .get-in-touch a {
+    padding: .2rem 1rem;
+    font-size: .8rem;
+  }
+  .personal-card {
+    padding: 20px;
+  }
+  .footerlinks {
+    flex-direction: column;
+  }
+
 }

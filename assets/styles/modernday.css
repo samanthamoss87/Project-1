@@ -1,0 +1,9 @@
+.modernday {
+    margin-top: 60px;
+    padding: 2.5rem 10rem;
+}
+
+/* Media queries for phone */
+@media screen and (max-width:768px) {
+    
+}

@@ -34,3 +34,8 @@
   .industry .industry-card h1 {
     margin-bottom: 1rem
   }
+
+  /* Media queries for phone */
+  @media screen and (max-width:768px) {
+    
+  }

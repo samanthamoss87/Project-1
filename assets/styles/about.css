@@ -34,3 +34,8 @@
   .aboutus .abouttext {
     flex: 1;
   }
+
+  /* Media queries for phone */
+  @media screen and (max-width:768px) {
+
+  }
