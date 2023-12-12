@@ -1,11 +1,11 @@
 .privacyinfo {
     margin-top: 60px;
-    padding: 2.5rem 10rem;
+    padding: 2.5rem 5rem;
 }
 
 /* Media queries for phone */
 @media screen and (max-width:768px) {
 .privacyinfo {
-    padding: 2.5rem 1.5rem;
+    padding: 2rem;
 }
 }
