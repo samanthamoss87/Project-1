@@ -42,8 +42,12 @@
 
 /* Media queries for phone */
 @media screen and (max-width:768px) {
+  .aboutusinfo {
+    padding: 2rem;
+  }
   .aboutus {
     flex-direction: column;
     text-align: center;
+    padding: 2rem;
   }
 }

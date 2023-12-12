@@ -38,9 +38,12 @@
 
 /* Media queries for phone */
 @media screen and (max-width:768px) {
-
+  .industrysummary {
+  padding: 2rem;
+  } 
   .industry {
     flex-direction: column;
+    padding: 3rem 2rem;
   }
   .industrysummary p {
     text-align: center;
