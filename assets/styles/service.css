@@ -5,7 +5,9 @@
   justify-content: center;
   align-items: center;
   gap: 5rem;
+  text-align: center;
 }
+
 .servicegrid {
     width: 100%;
     padding: 3rem 5rem;
@@ -78,5 +80,38 @@
 
   /* Media queries for phone */
   @media screen and (max-width:768px) {
-    
+    .servicesummary {
+      padding: 2rem;
+    }
+    .servicegrid {
+      padding: 2rem;
+    }
+    .grid1 {
+      flex-direction: column;
+    }
+    .grid1 .video {
+      width: 100%;
+      height: auto;
+    }
+    .grid1 .list {
+      width: 100%;
+      margin-left: 0;
+      text-align: center;
+    }
+    .grid2 {
+      flex-direction: column-reverse;
+    }
+    .grid2 .image {
+      width: 100%;
+      height: auto;
+    }
+    .grid2 .image .img {
+      width: 100%;
+      height: auto;
+    }
+    .grid2 .text {
+      width: 100%;
+      margin-right: 0;
+      text-align: center;
+    }
   }
