@@ -60,5 +60,18 @@
 
   /* Media queries for phone */
   @media screen and (max-width:768px) {
+    .contact {
+      padding: 2rem;
+      flex-direction: column;
+    }
+    .contact .contactform {
+      width: 100%;
+    }
+    .submitBtn {
+      width: 100%;
+    }
+    .contactInfo {
+      width: 100%;
+    }
     
   }
