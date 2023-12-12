@@ -9,109 +9,117 @@
 }
 
 .servicegrid {
-    width: 100%;
-    padding: 3rem 5rem;
-  }
-  
-  
-  .grid1 {
-    display: flex;
-    justify-content: center;
-    align-items: center
-  }
-  
-  .video,
-  .list {
-    width: 50%;
-  }
-  
-  
-  .grid1 .video {
-    height: 300px;
-    max-width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end
-  }
-  
-  .grid1 video {
-    height: 100%;
-    width: 100%;
-  }
-  
-  
-  .list {
-    margin-left: 3rem;
-  }
-  
-  .list h2 {
-    margin-bottom: 1rem;
-  }
-  
-  .grid2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5rem;
-  }
-  
-  .grid2 .text,
-  .grid2 .image {
-    width: 50%;
-  }
-  
-  .grid2 .image {
-    height: 300px;
-  }
-  
-  .grid2 .image img {
-    width: 100;
-    height: 100%;
-  }
-  
-  .grid2 .text {
-    text-align: right;
-    margin-right: 3rem;
-  }
-  
-  .grid2 .text h2 {
-    margin-bottom: 1rem;
+  width: 100%;
+  padding: 3rem 5rem;
+}
+
+
+.grid1 {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.video,
+.list {
+  width: 50%;
+}
+
+
+.grid1 .video {
+  height: 300px;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end
+}
+
+.grid1 video {
+  height: 100%;
+  width: 100%;
+}
+
+
+.list {
+  margin-left: 3rem;
+}
+
+.list h2 {
+  margin-bottom: 1rem;
+}
+
+.grid2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.grid2 .text,
+.grid2 .image {
+  width: 50%;
+}
+
+.grid2 .image {
+  height: 300px;
+}
+
+.grid2 .image img {
+  width: 100;
+  height: 100%;
+}
+
+.grid2 .text {
+  text-align: right;
+  margin-right: 3rem;
+}
+
+.grid2 .text h2 {
+  margin-bottom: 1rem;
+}
+
+/* Media queries for phone */
+@media screen and (max-width:768px) {
+  .servicesummary {
+    padding: 2rem;
   }
 
-  /* Media queries for phone */
-  @media screen and (max-width:768px) {
-    .servicesummary {
-      padding: 2rem;
-    }
-    .servicegrid {
-      padding: 2rem;
-    }
-    .grid1 {
-      flex-direction: column;
-    }
-    .grid1 .video {
-      width: 100%;
-      height: auto;
-    }
-    .grid1 .list {
-      width: 100%;
-      margin-left: 0;
-      text-align: center;
-    }
-    .grid2 {
-      flex-direction: column-reverse;
-    }
-    .grid2 .image {
-      width: 100%;
-      height: auto;
-    }
-    .grid2 .image .img {
-      width: 100%;
-      height: auto;
-    }
-    .grid2 .text {
-      width: 100%;
-      margin-right: 0;
-      text-align: center;
-    }
+  .servicegrid {
+    padding: 2rem;
   }
+
+  .grid1 {
+    flex-direction: column;
+  }
+
+  .grid1 .video {
+    width: 100%;
+    height: auto;
+  }
+
+  .grid1 .list {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .grid2 {
+    flex-direction: column-reverse;
+  }
+
+  .grid2 .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .grid2 .image .img {
+    width: 100%;
+    height: auto;
+  }
+
+  .grid2 .text {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+}
