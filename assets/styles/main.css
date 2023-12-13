@@ -56,11 +56,6 @@ nav {
   z-index: 10;
 }
 
-nav .logo {
-  height: 40px;
-  width: 40px;
-}
-
 nav .logo img {
   width: 100%;
   object-fit: cover;
@@ -172,7 +167,6 @@ top: 5px;
   height: 150px;
   object-fit: cover;
   position: relative;
-
 }
 
 .getintouch .getintouchpic img {
@@ -230,15 +224,20 @@ top: 5px;
 .info .cards a .card:hover {
   transform: scale(1.1);
   transition: .3s;
+}
 
+.info .cards a {
+  flex: 1;
+  height: 250px;
 }
 
 .info .cards a .card {
+  height: 100%;
   border: 1px solid #d9d9d9;
   box-shadow: 0 0 50px #d9d9d9;
   padding: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   text-align: center;
