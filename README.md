@@ -31,6 +31,11 @@
 
 # User experience
 ## User Stories
+
+<div align="center"> 
+    <img src="assets/img/readmeImg/indexmockupreadme.png" alt="index mock up">
+</div> 
+
 <!-- add your stories - how your user will feel about the site -->
 - As a company i would like to see what experience the consultancy company has in my area of business.
 - I would like to see what Sectors the consultancy company specialise in.
@@ -42,7 +47,7 @@
 # Design
 ## Colour Scheme
 <div align="center"> 
-    <img src="./img/readmeImg/colorpalatte.png" alt="Colour Palatte">
+    <img src="./assets/img/readmeImg/colorpalatte.png" alt="Colour Palatte">
 </div> 
 
 - #000000 was used in all the font text
@@ -54,7 +59,7 @@
 ## Typography
 
 <div align="center"> 
-    <img src="./img/readmeImg/fontstyle.png" alt="Font Style">
+    <img src="./assets/img/readmeImg/indexphoto.png" alt="Font Style">
 </div> 
 
 - My primary font is [Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) which is on all pages of the website
@@ -71,7 +76,7 @@
 ### All pages
 **Nav Bar**
 <div align="center"> 
-    <img src="./img/readmeImg/navbar.png" alt="Nav bar">
+    <img src="./assets/img/readmeImg/navbarimg.png" alt="Nav bar">
 </div> 
 
 - This Nav bar is on all 5 pages with the minimal design. 
@@ -79,7 +84,7 @@
 
 **Footer**
 <div align="center"> 
-    <img src="./img/readmeImg/footer.png" alt="Footer">
+    <img src="./assets/img/readmeImg/footer.png" alt="Footer">
 </div> 
 
 - This footer is also accessible on all pages.
@@ -88,7 +93,7 @@
 
 **Banner**
 <div align="center"> 
-    <img src="./img/readmeImg/masterbanner.png" alt="Master Banner">
+    <img src="./assets/img/readmeImg/masterbanner.png" alt="Master Banner">
 </div> 
 
 - This Banner is on all pages except the main page
@@ -158,7 +163,5 @@ python3 -m http.server
 # Testing
 
 # Credits
-## Code used
-## Content
-## Media
+
 ## Acknowledment
