@@ -37,12 +37,14 @@
 </div> 
 
 <!-- add your stories - how your user will feel about the site -->
-- As a company i would like to see what experience the consultancy company has in my area of business.
+- As a company i would like to see what relavant experience the consultancy company has in my area of business.
 - I would like to see what Sectors the consultancy company specialise in.
 - As a customer looking at optimizing my business's profitabitly and Growth i would like to see what services they offer throughout my business.
 - while visting a consultancy website, i want to Navigate through their services and Industry sectors seamlessly and have a direct link to contacting them on everypage.    
 - I want to be able to contact the consultancy company with direct open ended questions.
-- I would want a understanding of the company background and experience in all areas. 
+- I would want a understanding of the company background and experience in all areas.
+- I am a telematics provider looking to explore adding video functionality to my software platform
+- I am a Automotive partner looking to appoint a supplier for video telematics to address customer demands
 
 # Design
 ## Colour Scheme
