@@ -3,15 +3,41 @@
 <!-- add a company review why i built it and what does it do -->
 ## Table of Contents
 1. [User Experience](#user-experience)
+    - [Goals](#goals)
+    - [Business Goals](#business-goals)
     - [User Stories](#user-stories)
 2. [Design](#design)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
     - [Imagery](#imagery)
     - [Wireframes](#wireframes)
+    - [Programs Used](#programs-used)
+    - [Photo and Video](#photo-and-video)
+    - [Icons](#icons)
 3. [Features](#features)
     - [General Features](#general-features)
-    - [Future Implementations](#future-implementations)
+    - [All pages](#all-pages)
+    - [Nav bar](#nav-bar)
+    - [Footer](#footer)
+    - [Banner](#index-page)
+    - [Index Page](#index-page)
+    - [About us](#about-us)
+    - [Services](#services)
+    - [Industry Sectors](#industry-sectors)
+    - [Contact Page](#contact-page)
+    - [Cookie Policy](#cookie-policy)
+    - [Privacy Policy](#privacy-policy)
+    - [Terms and Conditions](#terms-and-conditions)
+    - [Modern Day Slavery](#modern-day-slavery)
+4. [Future Implementations](#future-implementations)
+    - [User Usage Future Implementations](#user-usage-future-implementions)
+    - [Contact Us](#contact-us)
+    - [Audio](#audio)
+    - [Indutry Page Flexboxes](#industry-page-flexboxes)
+    - [Language](#language)
+    - [Search Section](#search-section)
+    - [Cookies](#cookies)
+    - [Additional Pages](#additonal-pages)
     - [Accesbility](#accessbility)
 4. [Technolgies used](#technolgies-used)
     - [Languages](#languages)
@@ -22,10 +48,22 @@
     - [Local Development](#local-development)
         - [Local Preperation](#local-preperation)
         - [Local Instruction](#local-instruction)
+    - [Github Deployment](#github-deployment)
+        - [Github Preperation](#github-preperation)
+        - [Github Instrucation](#github-instruction)
 6. [Testing](#testing)
-- 
+        - [Methods](#methods)
+        - [Validation](#validation)
+        - [General Testing](#general-testing)
+        - [Mobile Testing](#mobile-testing)
+        - [Desktop Testing](#desktop-testing)
+7. [Bugs](#bugs)
+        - [known bugs](#known-bugs)
+        - [Fixed bugs](#fixed-bugs)
+ 
 7. [Credits](#credits)
     - [Acknowledment](#acknowledment)
+8. [Contact](#contact)
 
 # User experience
 ## Goals
@@ -145,7 +183,7 @@ The Business Goals of RS Vision ConsultingS are:
 # Features
 ## General features
 ### All pages
-**Nav Bar**
+## Nav Bar
 <div align="center"> 
     <img src="assets/img/readmeImg/navbarimg.png" alt="Nav bar">
 </div> 
@@ -160,7 +198,7 @@ The Business Goals of RS Vision ConsultingS are:
 
 - This is the look of the nav bar in the format of a phone
 - I wanted it to look more sleek and user friendly in the style.
-- Anything below 768px will show this format by using mediaqueries.
+- Anything below 768px will show this format by using mediaqueries. 
 
 <div align="center"> 
     <img src="assets/img/readmeImg/navbarburger.png" alt="Nav hamburger">
@@ -170,7 +208,7 @@ The Business Goals of RS Vision ConsultingS are:
 - When you click on the 3 links it brings the Nav list up.
 - If you click on the logo it will take you back to the home page.
 
-**Footer**
+## Footer
 <div align="center"> 
     <img src="assets/img/readmeImg/footer.png" alt="Footer">
 </div> 
