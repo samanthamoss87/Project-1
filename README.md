@@ -448,13 +448,21 @@ python3 -m http.server
 
 # Bugs
 ## Known bugs
+- The logo was not navigating to the index page.
 - The images was lowering the performance.
-- The text was sitting out side the box lower than 768px.
+- The text was sitting out side the box on small screen Iphone.
+- The wording inside the video on the index page was not aligned vertically.
+- The personal statement box was to big with the fixed height.
+- The text was overlapping on the button on the get in touch section in the index page.
 
 
 ## Fixed bugs
+- By putting the logo in anchor tag it is fixed.
 - I placed the website in simpleimagerezer.com, Tinypng and freeconvert to improve the performance.
-- xxxxxxxxxx
+- To fix the text falling outside the flex boxes on the index page in the small screen iphone i had to remove the fixed height.
+- The reline the wording in the Video on the index page i removed the translate Y.
+- By removing the fixed height it is now properly sized.
+- Reducing the text size and width of the text it is fixed.
 
 
 
