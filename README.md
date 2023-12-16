@@ -52,14 +52,14 @@
         - [Github Preperation](#github-preperation)
         - [Github Instrucation](#github-instruction)
 6. [Testing](#testing)
-        - [Methods](#methods)
-        - [Validation](#validation)
-        - [General Testing](#general-testing)
-        - [Mobile Testing](#mobile-testing)
-        - [Desktop Testing](#desktop-testing)
+    - [Methods](#methods)
+    - [Validation](#validation)
+    - [General Testing](#general-testing)
+    - [Mobile Testing](#mobile-testing)
+    - [Desktop Testing](#desktop-testing)
 7. [Bugs](#bugs)
-        - [known bugs](#known-bugs)
-        - [Fixed bugs](#fixed-bugs)
+    - [known bugs](#known-bugs)
+    - [Fixed bugs](#fixed-bugs)
  
 7. [Credits](#credits)
     - [Acknowledment](#acknowledment)
@@ -425,6 +425,7 @@ python3 -m http.server
 
 
 # Testing
+
 ## Methods
 ### Validation 
 - HTML has been validated with https://validator.w3.org/#validate_by_input
