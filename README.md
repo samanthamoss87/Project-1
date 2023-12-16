@@ -434,10 +434,10 @@ python3 -m http.server
 - Links checked with https://validator.w3.org/checklink.
 
 ### General Testing 
-- Each feature was testing when it implimented into the code on both safari and crome.
+- Each feature was testing when it implemented into the code on both safari and chrome.
 - The site was sent to family and friend to review and get their feedback.
 - Contact us form have validation and will not submit without all information filled in.
-- The videos and images was testing on all devices and browers for performance/loadspeed. 
+- The videos and images was testing on all devices and browsers for performance/loadspeed. 
 
 ### Mobile Testing
  - I tested the site on IOS and Android device using my phone and family members phone, going through the entire process, checking button, functions, loadspeed, style etc.         
@@ -445,7 +445,7 @@ python3 -m http.server
 
 ### Desktop Testing 
 - The website was designed on Microsoft laptop and it was previewed in Chrome and Microsoft edge. 
-- The wesite was tested by family and friends and numerous different devices.
+- The website was tested by family and friends and numerous different devices.
 
 # Bugs
 ## Known bugs
@@ -469,7 +469,7 @@ python3 -m http.server
 
 # Credits
 
-## Acknowledment
+## Acknowledgement
 - My joint business partner of RS Vision Consultancy Richard Lane helped with writing some of the content for our site.   
 
 # Contact
