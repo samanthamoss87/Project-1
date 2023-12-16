@@ -117,16 +117,10 @@ The Business Goals of RS Vision ConsultingS are:
 - As a customer looking at optimizing my business's profitabitly and Growth i would like to see what services they offer throughout my business.
 - while visting a consultancy website, i want to Navigate through their services and Industry sectors seamlessly and have a direct link to contacting them on everypage.    
 - I want to be able to contact the consultancy company with direct open ended questions.
-<<<<<<< HEAD
-- I would want a understanding of the company background and experience in all areas.
-- I am a telematics provider looking to explore adding video functionality to my software platform
-- I am a Automotive partner looking to appoint a supplier for video telematics to address customer demands
-=======
 - I would want a understanding of the company background and experience in all areas. 
 - I want to be able to review the site and get the detail i need easily without reading huge amount of text.
 - Where i want to, i want to be able to get more detail on the specific areas i am intereted.
 - As a company i want to be able to the site where ever i am in on any form device and get a easy fluent way to navigate, find the information easy and have high-lighted points as my time is sparse. 
->>>>>>> db58139 (updated more in the readme.md)
 
 # Design
 ## Colour Scheme
@@ -466,10 +460,7 @@ python3 -m http.server
 # Credits
 
 ## Acknowledment
-<<<<<<< HEAD
-=======
 - My joint business partner of RS Vision Consultancy Richard Lane helped with writing some of the content for our site.   
 
 # Contact
 - Please feel free to contact me at samantha.moss87@aol.com
->>>>>>> db58139 (updated more in the readme.md)
