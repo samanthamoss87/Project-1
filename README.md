@@ -38,7 +38,7 @@
     - [Search Section](#search-section)
     - [Cookies](#cookies)
     - [Additional Pages](#additonal-pages)
-    - [Accessibility](#accessbility)
+    - [Accesibility](#accessibility)
 4. [Technologies used](#technologies-used)
     - [Languages](#languages)
     - [Libraries](#libraries)
@@ -46,11 +46,11 @@
     - [Other Tools](#other-tools)
 5. [Local Development & Deployment](#local-development--deployment)
     - [Local Development](#local-development)
-        - [Local Preparation](#local-Preparation)
+        - [Local Preparation](#local-preparation)
         - [Local Instruction](#local-instruction)
     - [Github Deployment](#github-deployment)
-        - [Github Preparation](#github-Preparation)
-        - [Github Instruction](#github-instruction)
+        - [Github Preparation](#github-preparation)
+        - [Github Instrucation](#github-instruction)
 6. [Testing](#testing)
     - [Methods](#methods)
     - [Validation](#validation)
@@ -62,7 +62,7 @@
     - [Fixed bugs](#fixed-bugs)
  
 7. [Credits](#credits)
-    - [Acknowledgement](#acknowledment)
+    - [Acknowledgement](#acknowledgement)
 8. [Contact](#contact)
 
 # User experience
@@ -112,13 +112,12 @@ The Business Goals of RS Vision Consulting are:
 </div> 
 
 <!-- add your stories - how your user will feel about the site -->
-- I would like to be confident in using this website so finding all common attributes in the physical locations I would expect to see them.
 - As a company i would like to see what relevant experience the consultancy company has in my area of business.
-- I would like to see what sectors the consultancy company specialise in.
-- As a customer looking at optimising my business's profitability and growth I would like to see what services they offer throughout my business.
-- Whilst visiting a consultancy website, i want to navigate through their services and industry sectors seamlessly and have a direct link to contacting them on every page.    
-- I want to be able to contact the consultancy company with direct open-ended questions based upon the content i have read.
-- I would want an understanding of the company background and experience in the relevant subject areas. 
+- I would like to see what Sectors the consultancy company specialise in.
+- As a customer looking at optimising my business's profitabilitly and Growth i would like to see what services they offer throughout my business.
+- While visiting a consultancy website, i want to Navigate through their services and Industry sectors seamlessly and have a direct link to contacting them on every page.    
+- I want to be able to contact the consultancy company with direct open-ended questions.
+- I would want a understanding of the company background and experience in all areas. 
 - I want to be able to review the site and get the detail i need easily without reading huge amount of text.
 - Where i want to, i want to be able to get more detail on the specific areas i am interested.
 - As a company i want to be able to the site where ever i am in on any form device and get a easy fluent way to navigate, find the information easy and have high-lighted points as my time is sparse.
@@ -156,8 +155,8 @@ The Business Goals of RS Vision Consulting are:
 
 ## Wireframes
 - [Link to Wireframes](https://www.figma.com/file/OR9ALOmeSW29mY6VmIh4jx/Webpage-frontcover?type=design&node-id=0%3A1&mode=design&t=VkHTziaTuZjlnrDv-1)
-    - This is the initial design i created. I was going to implement a Management page in this project, but as i wanted it to sit in the About us section as an accordian which i know is a Javascript element so i decided to wait for project 2 in order to implement this.  
-    - I tried numerous fonts and design lay out inside Figma until i found the look and design i liked.
+    - This is the initial design i created. I was going to implement a Management page in this project, but as i wanted it to sit in the About us section as an accordance which i know is a Javascript element so i decided to wait for project 2 to implement.  
+    - I tried numerous fonts and design lay out inside figma until i found the look and design i liked.
 
 ## Programs Used
 - [Link to simple imager resizer](https://www.simpleimageresizer.com/)
@@ -365,7 +364,7 @@ The Business Goals of RS Vision Consulting are:
 - Management Page, i have already designed the management page on my figma. This will added underneath the about us section in the Nav once i have learned Javascript.
 - Additional pages on Industry Section, for more information on the Indutry sector section on future implementations.
 
-## Accessbility
+## Accessibility
 **Audio**
 
 - I created Audio script on the main sections of the website for Visually impaired people and people with learning difficulties. After doing some research and talking to people who was effected by been visually impairment and a Managing Director of a blind charity for children they commented saying it was forward thinking and really positive approach to be inclusive of all individuals. They mentioned they wish all websites would adopt a similar approach. 
@@ -432,6 +431,7 @@ python3 -m http.server
 - HTML has been validated with https://validator.w3.org/#validate_by_input
 - CSS has been validated with https://jigsaw.w3.org/ and auto-prefixed with https://autoprefixer.github.io/.
 - Links checked with https://validator.w3.org/checklink.
+- I also used https://pagespeed.web.dev/
 
 ### General Testing 
 - Each feature was testing when it implemented into the code on both safari and chrome.
