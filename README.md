@@ -33,24 +33,24 @@
     - [User Usage Future Implementations](#user-usage-future-implementions)
     - [Contact Us](#contact-us)
     - [Audio](#audio)
-    - [Indutry Page Flexboxes](#industry-page-flexboxes)
+    - [Industry Page Flexboxes](#industry-page-flexboxes)
     - [Language](#language)
     - [Search Section](#search-section)
     - [Cookies](#cookies)
     - [Additional Pages](#additonal-pages)
-    - [Accesbility](#accessbility)
-4. [Technolgies used](#technolgies-used)
+    - [Accessibility](#accessbility)
+4. [Technologies used](#technologies-used)
     - [Languages](#languages)
     - [Libraries](#libraries)
     - [Platforms](#platforms)
     - [Other Tools](#other-tools)
 5. [Local Development & Deployment](#local-development--deployment)
     - [Local Development](#local-development)
-        - [Local Preperation](#local-preperation)
+        - [Local Preparation](#local-Preparation)
         - [Local Instruction](#local-instruction)
     - [Github Deployment](#github-deployment)
-        - [Github Preperation](#github-preperation)
-        - [Github Instrucation](#github-instruction)
+        - [Github Preparation](#github-Preparation)
+        - [Github Instruction](#github-instruction)
 6. [Testing](#testing)
     - [Methods](#methods)
     - [Validation](#validation)
@@ -62,7 +62,7 @@
     - [Fixed bugs](#fixed-bugs)
  
 7. [Credits](#credits)
-    - [Acknowledment](#acknowledment)
+    - [Acknowledgement](#acknowledment)
 8. [Contact](#contact)
 
 # User experience
@@ -88,16 +88,16 @@ User goals are:
 RS Vision Consulting fills these needs by:
 
 - Starting with a eye catching video and then image to draw people in.
-- Having the flex boxs onin the main page is to draw people in to reviewnig the services and industry sectors and contact us.
+- Having the flex boxes on the main page is to draw people in to reviewing the services and industry sectors and contact us.
 - Having access to all the pages in the Nav makes to easier for the user to navigate through the site.
-- Have all the additional information lke Cookies, Terms and Conditions, Privacy Policy and Modernday slavery helps the user understand the company more, where we stand and future proofing the site for them.
-- Proving flex boxs in the industry section helps the user high light the specific area they are in.
+- Have all the additional information lke Cookies, Terms and Conditions, Privacy Policy and Modern day slavery helps the user understand in more detail the company policies and ethics, where we stand and future proofing the site for them.
+- Proving flex boxes in the industry section helps the user high light the specific area they are in.
 - Having videos and images through out the site helps the user understand the industry we are in and create nice eye catching images for them to review.
 - Have different ways to contact us on the contact page, gives the user options that is easier for them.
 
 ### Business Goals
 
-The Business Goals of RS Vision ConsultingS are:
+The Business Goals of RS Vision Consulting are:
 
 - Display and highlight what we are about.
 - Get an understanding about what services we do.
@@ -112,15 +112,17 @@ The Business Goals of RS Vision ConsultingS are:
 </div> 
 
 <!-- add your stories - how your user will feel about the site -->
-- As a company i would like to see what relavant experience the consultancy company has in my area of business.
-- I would like to see what Sectors the consultancy company specialise in.
-- As a customer looking at optimizing my business's profitabitly and Growth i would like to see what services they offer throughout my business.
-- while visting a consultancy website, i want to Navigate through their services and Industry sectors seamlessly and have a direct link to contacting them on everypage.    
-- I want to be able to contact the consultancy company with direct open ended questions.
-- I would want a understanding of the company background and experience in all areas. 
+- I would like to be confident in using this website so finding all common attributes in the physical locations I would expect to see them.
+- As a company i would like to see what relevant experience the consultancy company has in my area of business.
+- I would like to see what sectors the consultancy company specialise in.
+- As a customer looking at optimising my business's profitability and growth I would like to see what services they offer throughout my business.
+- Whilst visiting a consultancy website, i want to navigate through their services and industry sectors seamlessly and have a direct link to contacting them on every page.    
+- I want to be able to contact the consultancy company with direct open-ended questions based upon the content i have read.
+- I would want an understanding of the company background and experience in the relevant subject areas. 
 - I want to be able to review the site and get the detail i need easily without reading huge amount of text.
-- Where i want to, i want to be able to get more detail on the specific areas i am intereted.
-- As a company i want to be able to the site where ever i am in on any form device and get a easy fluent way to navigate, find the information easy and have high-lighted points as my time is sparse. 
+- Where i want to, i want to be able to get more detail on the specific areas i am interested.
+- As a company i want to be able to the site where ever i am in on any form device and get a easy fluent way to navigate, find the information easy and have high-lighted points as my time is sparse.
+- I would like clear calls for action on the basis their services are of interest to my business
 
 # Design
 ## Colour Scheme
@@ -141,7 +143,7 @@ The Business Goals of RS Vision ConsultingS are:
 </div> 
 
 - My primary font is [Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) which is on all pages of the website
-- I used Poppins font as it is clear for everyone to read, whilst also having a great style look for a Consultancy business.
+- I used Poppins font as it is clear for everyone to read, whilst also having a great style look for a Consultancy / technology business.
 
 ## Imagery
 <div align="center"> 
@@ -149,13 +151,13 @@ The Business Goals of RS Vision ConsultingS are:
 </div> 
 
 - These are the photos i purchased from istockphoto.com
-- I researched hundards of photo to get the best photo that was the most enticing.
+- I researched hundreds of photo to get the best image to represent the relvant area of my business.
 - They matched inline with the Businesses and the sectors we are working in.
 
 ## Wireframes
 - [Link to Wireframes](https://www.figma.com/file/OR9ALOmeSW29mY6VmIh4jx/Webpage-frontcover?type=design&node-id=0%3A1&mode=design&t=VkHTziaTuZjlnrDv-1)
-    - This is the inital design i created. I was going to implement a Management page in this project, but as i wanted it to sit in the About us section as an accordian which i know is a Javascript element so i decided to wait for project 2 to implement.  
-    - I tried numerous fonts and design lay out inside figma until i found the look and design i liked.
+    - This is the initial design i created. I was going to implement a Management page in this project, but as i wanted it to sit in the About us section as an accordian which i know is a Javascript element so i decided to wait for project 2 in order to implement this.  
+    - I tried numerous fonts and design lay out inside Figma until i found the look and design i liked.
 
 ## Programs Used
 - [Link to simple imager resizer](https://www.simpleimageresizer.com/)
@@ -167,8 +169,7 @@ The Business Goals of RS Vision ConsultingS are:
 
  ## Photo and Video
  - [Link to istock photo](https://www.istockphoto.com/)
-    - I purchased the images from this site, i downloaded numberous preview images and placed them into my site until i found the perfect pictures and videos that told the story i needed them to tell.
-
+    - I purchased the images from this site, i downloaded numerous preview images and placed them into my site until i found the best pictures and videos to convey the subject matter message.
 ## Icons
  - [Link to icons8](https://icons8.com/)
         - This is where i downloaded my Favicon Icon
@@ -208,7 +209,7 @@ The Business Goals of RS Vision ConsultingS are:
 </div> 
 
 - This footer is also accessible on all pages.
-- The footer also holds the Terms and Conditions, Privacy policy, Cookies Policy and MDS Policy.
+- The footer also holds the Terms and Conditions, Privacy policy, Cookies Policy and Modern Day Slavery Policy.
 - The is aligned in to the middle of the screen and has a blue Hoover to highlight and access the links to the external documents.
 
 <div align="center"> 
@@ -224,7 +225,7 @@ The Business Goals of RS Vision ConsultingS are:
 </div> 
 
 - This Banner is on all pages except the main page
-- The Banner is on every page for continuity throughout the website and to highlight we specialise in Technolgy including API's. 
+- The Banner is on every page for continuity throughout the website and to highlight we specialise in Technology including API's. 
 
 ## Index page
 <div align="center"> 
@@ -232,14 +233,14 @@ The Business Goals of RS Vision ConsultingS are:
 </div> 
 
 - This is my main page video, i wanted to make it eye catching, stylish, easy to read, easy to navigate, while also been user friendly.
-- I also wanted this to be on point regardnig the industry the website was for.
-- Hours of reseaching for the best video to do this, this is what i came up with.
+- I also wanted this to be on point regarding conveying high-level the services we provide in the industry sectors we support.
+- With hours of research i thought video was the best way to convey the technology / Ai side of the business.
 
 <div align="center"> 
     <img src="assets/img/readmeImg/indexmainreadmepic.png" alt="Main page picture">
 </div> 
 
-- I added this image to make the front page be attactive to the eye, whilst also been industry specfic.
+- I added this image to make the front page be attractive to the eye, whilst also been industry specific.
 - Knowing that this image is eye catching, i wanted to add text to it to draw people in.
 - Knowing the image will draw the user eye, and adding some basic text i created a contact us href to draw them to the contact us page.
 
@@ -289,9 +290,9 @@ The Business Goals of RS Vision ConsultingS are:
     <img src="assets/img/readmeImg/contactusform.png" alt="Contact page">
 </div> 
 
-- I created a contact us form where the user could pick a specific area there want more infomation on and a textarea where they can go into more details.
+- I created a contact us form where the user could pick a specific area there want more infomation on and a text area where they can go into more details.
 - The can not submit the form unless all areas are filled in.
-- I added RS Vision Consulting information for them to contact us through email if they require and they can also reseach into the business if they require to do so.
+- I added RS Vision Consulting information for them to contact us through email if they require and they can also research into the business if they require to do so.
 
 ## Cookie Policy
 <div align="center"> 
@@ -324,8 +325,8 @@ The Business Goals of RS Vision ConsultingS are:
 
 ### User Usage Future Implementions
 
--  In the future exsisting customer will be able to log in their own portal/account through the webite home page or the speciic industry section on the Industry page.
-- The exsisting customer will be able to review;
+-  In the future existing customer will be able to log in their own portal/account through the website home page or the specific industry section on the Industry page.
+- The existing customer will be able to review;
     - Invoices.
     - Payment link to pay the invoice.
     - Contracts.
@@ -339,7 +340,7 @@ The Business Goals of RS Vision ConsultingS are:
 
 ### Audio 
 
-- I will be creating Audio on all sections to help improve further Accessbility for visual impaired and people with learning difficulties. 
+- I will be creating Audio on all sections to help improve further accessibility for visual impaired and people with learning difficulties. 
 
 ### Industry Page Flexboxes
 
@@ -349,11 +350,11 @@ The Business Goals of RS Vision ConsultingS are:
 
 ### Language
 
- - In the Nav bar (on every above 768px) the Contact us link  that is in the right hand corner will move over and be centralised and their will be a Language change option. So customer around the world will be able to read the Content in their language. As seen in my figma deisgn.
+ - In the Nav bar (on every above 768px) the Contact us link  that is in the right hand corner will move over and be centralised and their will be a language change option. So customer around the world will be able to read the Content in their language. As seen in my figma deisgn.
 
 ### Search Section
- - In the Nav bar (on every above 768px) the Contact us link that is in the right hand corner will move into the middle and next to the language section will be a magnifying glass for the seach section. As seen in my figma design.
- - The user will be able to seach any key words on the site and will take them to the relevant information they require.
+ - In the Nav bar (on every above 768px) the Contact us link that is in the right hand corner will move into the middle and next to the language section will be a magnifying glass for the search section. As seen in my figma design.
+ - The user will be able to search any key words on the site and will take them to the relevant information they require.
 
 ### Cookies
 
@@ -361,13 +362,13 @@ The Business Goals of RS Vision ConsultingS are:
 
 ### Additonal pages
 
-- Mangement Page, i have already designed the management page on my figma. This will added underneith the about us section in the Nav once i have leant Javascript.
-- Addtional pages on Industry Section, for more information on the Indutry sector section on future implementations.
+- Management Page, i have already designed the management page on my figma. This will added underneath the about us section in the Nav once i have learned Javascript.
+- Additional pages on Industry Section, for more information on the Indutry sector section on future implementations.
 
 ## Accessbility
 **Audio**
 
-- I created Audio script on the main sections of the website for Visually impaired people and people with learning difficulties. After doing some reseach and talking to people who was effected by been visually impairment and a Managing Director of a blind charity for children they commented saying it was forward thinking and really positive approach to be inclusive of all individuals. They mentioned they wish all websites would adopt a similar approach. 
+- I created Audio script on the main sections of the website for Visually impaired people and people with learning difficulties. After doing some research and talking to people who was effected by been visually impairment and a Managing Director of a blind charity for children they commented saying it was forward thinking and really positive approach to be inclusive of all individuals. They mentioned they wish all websites would adopt a similar approach. 
 - As my website expanded i will increase the amount of Audio where required. 
 - I also created the NAV Bar to be fixed on all pages, so it is easy to access all elements no matter what page you are on. 
 
@@ -384,7 +385,7 @@ The Business Goals of RS Vision ConsultingS are:
 - [Github](github.com)
     - Store the code remotely for deployment
 - [Gitpod](gitpod.io)
-    - Developement environment for the project
+    - Development environment for the project
 ## Other Tools
 - [Figma](figma.com)
     - Wireframe design
@@ -392,7 +393,7 @@ The Business Goals of RS Vision ConsultingS are:
 
 ## Local Development
 
-### Local Preperation
+### Local Preparation
 **Requirements**
 - IDE like [Visual Studio Code](https://code.visualstudio.com/download)
 - [Git](https://git-scm.com/)
@@ -411,7 +412,7 @@ python3 -m http.server
 4. Enjoy the site
 
 ## Github Deployment
-### Github Preperation
+### Github Preparation
 - Create a free Github account 
 
 ### Github Instruction
