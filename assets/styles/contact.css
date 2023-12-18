@@ -1,77 +1,97 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 versions
+*/
+
 .contact {
-    padding: 3rem 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
+  padding: 3rem 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5rem;
+}
+
+.contactform,
+.contactInfo {
+  width: 50%;
+}
+
+.checkArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: .5rem
+}
+
+.contactform input[type=text],
+.contactform input[type=email],
+.contactform textarea {
+  width: 100%;
+}
+
+.contactform input[type=checkbox] {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.contactform input {
+  height: 2rem;
+  margin-bottom: .8rem;
+  padding: .5rem;
+}
+
+.contactform form div .checkArea label {
+  margin-bottom: .8rem;
+}
+
+.contactform form textarea {
+  height: 5rem;
+  padding: .5rem;
+}
+
+
+.submitBtn {
+  width: 30%;
+  padding: .5rem;
+  background-color: #d9d9d9;
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.contactInfo h1 {
+  margin-bottom: 2rem;
+}
+
+/* Media queries for phone */
+@media screen and (max-width:768px) {
+  .contact {
+    padding: 2rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  
-  .contactform,
+  .contact .contactform {
+    width: 100%;
+  }
+  .submitBtn {
+    width: 100%;
+  }
   .contactInfo {
-    width: 50%;
-  }
-  
-  .checkArea {
-    display: flex;
-    align-items: center;
-    gap: .5rem
-  }
-  
-  .contactform input[type=text],
-  .contactform input[type=email],
-  .contactform textarea {
     width: 100%;
   }
   
-  .contactform input[type=checkbox] {
-    height: 1.2rem;
-    width: 1.2rem;
-  }
-  
-  .contactform input {
-    height: 2rem;
-    margin-bottom: .8rem;
-    padding: .5rem;
-  }
-  
-  .contactform form div .checkArea label {
-    margin-bottom: .8rem;
-  }
-  
-  .contactform form textarea {
-    height: 5rem;
-    padding: .5rem;
-  }
-  
-  
-  .submitBtn {
-    width: 30%;
-    padding: .5rem;
-    background-color: #d9d9d9;
-    border: none;
-    margin-top: 1rem;
-    cursor: pointer;
-    border-radius: 50px;
-  }
-  
-  .contactInfo h1 {
-    margin-bottom: 2rem;
-  }
-
-  /* Media queries for phone */
-  @media screen and (max-width:768px) {
-    .contact {
-      padding: 2rem;
-      flex-direction: column;
-    }
-    .contact .contactform {
-      width: 100%;
-    }
-    .submitBtn {
-      width: 100%;
-    }
-    .contactInfo {
-      width: 100%;
-    }
-    
-  }
+}
