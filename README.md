@@ -38,6 +38,8 @@
     - [Search Section](#search-section)
     - [Cookies](#cookies)
     - [Additional Pages](#additonal-pages)
+    - [Audio](#audio)
+    - [Logo](#logo)
     - [Accesibility](#accessibility)
 4. [Technologies used](#technologies-used)
     - [Languages](#languages)
@@ -364,12 +366,20 @@ The Business Goals of RS Vision Consulting are:
 - Management Page, i have already designed the management page on my figma. This will added underneath the about us section in the Nav once i have learned Javascript.
 - Additional pages on Industry Section, for more information on the Indutry sector section on future implementations.
 
+### Audio
+
+- In future my audio control bar will be a single speaker button, so that the user can click to play and pause, that will be implemented through Javascript. This will improve the look and style of the pages.
+
+### Logo
+
+- A new logo will be designed in the future to improve style/look and brand awareness.
 ## Accessibility
 **Audio**
 
 - I created Audio script on the main sections of the website for Visually impaired people and people with learning difficulties. After doing some research and talking to people who was effected by been visually impairment and a Managing Director of a blind charity for children they commented saying it was forward thinking and really positive approach to be inclusive of all individuals. They mentioned they wish all websites would adopt a similar approach. 
 - As my website expanded i will increase the amount of Audio where required. 
-- I also created the NAV Bar to be fixed on all pages, so it is easy to access all elements no matter what page you are on. 
+- I also created the NAV Bar to be fixed on all pages, so it is easy to access all elements no matter what page you are on.
+-  
 
 # Technologies used
 ## Languages
