@@ -121,8 +121,8 @@ The Business Goals of RS Vision Consulting are:
 - I want to be able to contact the consultancy company with direct open-ended questions.
 - I would want an understanding of the company background and experience in all areas. 
 - I want to be able to review the site and get the detail I need easily without reading huge amount of text.
-- Where I want to, i want to be able to get more detail on the specific areas i am interested.
-- As a company I want to be able to the site where ever i am in on any form device and get a easy fluent way to navigate, find the information easy and have high-lighted points as my time is sparse.
+- Where I want to, I want to be able to get more detail on the specific areas I am interested.
+- As a company I want to be able to the site wherever I am in on any form device and get an easy fluent way to navigate, find the information easy and have high-lighted points as my time is sparse.
 - I would like clear calls for action on the basis their services are of interest to my business
 
 # Design
@@ -157,7 +157,7 @@ The Business Goals of RS Vision Consulting are:
 
 ## Wireframes
 - [Link to Wireframes](https://www.figma.com/file/OR9ALOmeSW29mY6VmIh4jx/Webpage-frontcover?type=design&node-id=0%3A1&mode=design&t=VkHTziaTuZjlnrDv-1)
-    - This is the initial design I created. I was going to implement a Management page in this project, but as i wanted it to sit in the About us section as an accordance which I know is a JavaScript element so I decided to wait for project 2 to implement.  
+    - This is the initial design I created. I was going to implement a Management page in this project, but as i wanted it to sit in the About us section as an accordance which I know is a JavaScript element, so I decided to wait for project 2 to implement.  
     - I tried numerous fonts and design lay out inside Figma until I found the look and design I liked.
 
 ## Programs Used
@@ -174,7 +174,7 @@ The Business Goals of RS Vision Consulting are:
 ## Icons
  - [Link to icons8](https://icons8.com/)
         - This is where I downloaded my Favicon Icon
-        - This is also where i got my logos in my flex-boxes on my main page.  
+        - This is also where I got my logos in my flexboxes on my main page.  
 
 # Features
 ## General features
@@ -202,7 +202,7 @@ The Business Goals of RS Vision Consulting are:
 
 - This is the look of the Hamburger Nav.
 - When you click on the 3 links it brings the Nav list up.
-- If you click on the logo it will take you back to the home page.
+- If you click on the logo, it will take you back to the home page.
 
 ## Footer
 <div align="center"> 
@@ -292,7 +292,7 @@ The Business Goals of RS Vision Consulting are:
 </div> 
 
 - I created a contact us form where the user could pick a specific area there want more information on and a text area where they can go into more details.
-- The cannot submit the form unless all areas are filled in.
+- They cannot submit the form unless all areas are filled in.
 - I added RS Vision Consulting information for them to contact us through email if they require and they can also research into the business if they require to do so.
 
 ## Cookie Policy
@@ -327,7 +327,7 @@ The Business Goals of RS Vision Consulting are:
 ### User Usage Future Implementions
 
 -  In the future existing customer will be able to log in their own portal/account through the website home page or the specific industry section on the industry page.
-- The existing customer will be able to review.;
+- The existing customer will be able to review.
     - Invoices.
     - Payment link to pay the invoice.
     - Contracts.
@@ -337,7 +337,7 @@ The Business Goals of RS Vision Consulting are:
 
 ### Contact Us
 
-- Once I have leant JavaScript i will be making the submit button talk directly to my email, so I will receive all notifications from user my email. 
+- Once I have learnt JavaScript I will be making the submit button talk directly to my email, so I will receive all notifications from user my email. 
 
 ### Audio 
 
@@ -345,13 +345,13 @@ The Business Goals of RS Vision Consulting are:
 
 ### Industry Page Flexboxes
 
-- The reason why i did it all in sections in the Industry page as flex boxes was so i could us this page as an industry section overview and each on the individual section inside once click on will create a new page on that specific sector. This will then go into more detail.
-- Once we have more customers, we will also add in there customer reviews, which be industry specific.
-- The next step would be each one of them will work as its on individual app on a phone, so existing customer can click on their specific area and it will create a login option so they can log into their account.
+- The reason why I did it all in sections in the industry page as flex boxes was so i could us this page as an industry section overview and each on the individual section inside once click on will create a new page on that specific sector. This will then go into more detail.
+- Once we have more customers, we will also add in their customer reviews, which be industry specific.
+- The next step would be each one of them will work as its on individual app on a phone, so existing customer can click on their specific area, and it will create a login option so they can log into their account.
 
 ### Language
 
- - In the Nav bar (on every above 768px) the Contact us link that is in the right hand corner will move over and be centralised and there will be a language change option. So, customer around the world will be able to read the Content in their language. As seen in my figma deisgn.
+ - In the Nav bar (on every above 768px) the Contact us link that is in the right-hand corner will move over and be centralised and there will be a language change option. So, customer around the world will be able to read the Content in their language. As seen in my Figma design.
 
 ### Search Section
  - In the Nav bar (on every above 768px) the Contact us link that is in the right-hand corner will move into the middle and next to the language section will be a magnifying glass for the search section. As seen in my Figma design.
@@ -359,16 +359,16 @@ The Business Goals of RS Vision Consulting are:
 
 ### Cookies
 
-- Once I have learnt JaraScript i will adding a pop-up Cookie section once you are in the page. That the customer will have to accept or decline.
+- Once I have learnt JavaScript I will adding a pop-up Cookie section once you are in the page. That the customer will have to accept or decline.
 
 ### Additonal pages
 
-- Management Page, i have already designed the management page on my figma. This will added underneath the about us section in the Nav once i have learned Javascript.
-- Additional pages on Industry Section, for more information on the Indutry sector section on future implementations.
+- Management Page, I have already designed the management page on my Figma. This will added underneath the about us section in the Nav once I have learned JavaScript.
+- Additional pages on industry Section, for more information on the Indutry sector section on future implementations.
 
 ### Audio
 
-- In future my audio control bar will be a single speaker button, so that the user can click to play and pause, that will be implemented through Javascript. This will improve the look and style of the pages.
+- In future my audio control bar will be a single speaker button, so that the user can click to play and pause, that will be implemented through JavaScript. This will improve the look and style of the pages.
 
 ### Logo
 
@@ -376,8 +376,8 @@ The Business Goals of RS Vision Consulting are:
 ## Accessibility
 **Audio**
 
-- I created Audio script on the main sections of the website for Visually impaired people and people with learning difficulties. After doing some research and talking to people who was affected by been visually impairment and a Managing Director of a blind charity for children they commented saying it was forward thinking and really positive approach to be inclusive of all individuals. They mentioned they wish all websites would adopt a similar approach. 
-- As my website expanded I will increase the amount of Audio where required. 
+- I created Audio script on the main sections of the website for Visually impaired people and people with learning difficulties. After doing some research and talking to people who was affected by been visually impairment and a Managing Director of a blind charity for children, they commented saying it was forward thinking and really positive approach to be inclusive of all individuals. They mentioned they wish all websites would adopt a similar approach. 
+- As my website expanded, I will increase the amount of Audio where required. 
 - I also created the NAV Bar to be fixed on all pages, so it is easy to access all elements no matter what page you are on.
 
 
@@ -447,10 +447,10 @@ python3 -m http.server
 - Each feature was testing when it implemented into the code on both safari and chrome.
 - The site was sent to family and friend to review and get their feedback.
 - Contact us form have validation and will not submit without all information filled in.
-- The videos and images were testing on all devices and browsers for performance/loadspeed. 
+- The videos and images were testing on all devices and browsers for performance/load speed. 
 
 ### Mobile Testing
- - I tested the site on IOS and Android device using my phone and family members phone, going through the entire process, checking button, functions, loadspeed, style etc.         
+ - I tested the site on IOS and Android device using my phone and family members phone, going through the entire process, checking button, functions, load speed, style etc.         
 - Chrome and Microsoft edge was used to inspect the site in mobile format, looking at functions, responsiveness and style.
 
 ### Desktop Testing 
