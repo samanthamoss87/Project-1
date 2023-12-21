@@ -1,6 +1,6 @@
 # **RS Vision Consulting Ltd**
 <!-- add pictures of screen preview -->
-<!-- add a company review why i built it and what does it do -->
+<!-- add a company review why I built it and what does it do -->
 ## Table of Contents
 1. [User Experience](#user-experience)
     - [Goals](#goals)
@@ -40,7 +40,7 @@
     - [Additional Pages](#additonal-pages)
     - [Audio](#audio)
     - [Logo](#logo)
-    - [Accesibility](#accessibility)
+    - [Accessibility](#accessibility)
 4. [Technologies used](#technologies-used)
     - [Languages](#languages)
     - [Libraries](#libraries)
@@ -284,7 +284,7 @@ The Business Goals of RS Vision Consulting are:
 - I also created the information in the flex boxes so it highlights the specific area for them to review.
 - I created the page this way so it was easy to transition on devices.
 - I kept the wording in high level without bombarding the user so they take it in and make them contact us for more information. 
-- I decided not to use images on this page as i didn't want to take away from the content and the design itself still made the style look nice.
+- I decided not to use images on this page as I didn't want to take away from the content and the design itself still made the style look nice.
 
 ## Contact page
 <div align="center"> 
@@ -324,7 +324,7 @@ The Business Goals of RS Vision Consulting are:
 
 ## Future Implementations
 
-### User Usage Future Implementions
+### User Usage Future Implementations
 
 -  In the future existing customer will be able to log in their own portal/account through the website home page or the specific industry section on the industry page.
 - The existing customer will be able to review.
@@ -334,6 +334,7 @@ The Business Goals of RS Vision Consulting are:
     - Project timeframes.
     - Project information, like any work that has been completed and deadlines of things that are not complete.
     - If they have requested for a platform to be designed, they will also be able to see design, any updates, any notes the developers have added and create any notes themselves.
+    - On the contact us page, once the form is complete the submit button will highlight blue to show complication and ready to submit, once I have learnt JavaScript. 
 
 ### Contact Us
 
@@ -361,10 +362,10 @@ The Business Goals of RS Vision Consulting are:
 
 - Once I have learnt JavaScript I will adding a pop-up Cookie section once you are in the page. That the customer will have to accept or decline.
 
-### Additonal pages
+### Additional pages
 
 - Management Page, I have already designed the management page on my Figma. This will added underneath the about us section in the Nav once I have learned JavaScript.
-- Additional pages on industry Section, for more information on the Indutry sector section on future implementations.
+- Additional pages on industry Section, for more information on the indutry sector section on future implementations.
 
 ### Audio
 
