@@ -59,7 +59,7 @@
 }
 
 .industry .industry-card h1 {
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
 }
 
 /* Media queries for phone */
@@ -79,5 +79,8 @@
   }
   .industry .industry-card {
     width: 100%;
+  }
+  .industry .industry-card h1 {
+    font-size: 1.5rem;
   }
 }
