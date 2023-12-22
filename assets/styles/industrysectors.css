@@ -21,6 +21,10 @@
   text-align: center;
 }
 
+.banner h1 {
+  color: white;
+}
+
 .industry {
   padding: 3rem 5rem;
   display: -webkit-box;

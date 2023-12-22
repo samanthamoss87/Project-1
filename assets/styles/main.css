@@ -43,7 +43,7 @@ ul li {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  opacity: 0.4;
+     opacity: 0.6;
 }
 
 .banner h1 {

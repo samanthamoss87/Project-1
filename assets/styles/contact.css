@@ -19,6 +19,10 @@
   gap: 5rem;
 }
 
+.banner h1 {
+  color: white;
+}
+
 .contactform,
 .contactInfo {
   width: 50%;
