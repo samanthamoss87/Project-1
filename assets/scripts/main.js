@@ -42,10 +42,9 @@ function scrollFunction() {
     let backToTopBtn = document.getElementById("backToTopBtn")
 
     if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-        console.log("Scrolling")
-        backToTopBtn.style.display = "block"
+        backToTopBtn.style.opacity = 1
     } else {
-        backToTopBtn.style.display = "none"
+        backToTopBtn.style.opacity = 0
     }
 }
 

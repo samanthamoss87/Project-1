@@ -41,20 +41,18 @@ ul li {
   height: 50px;
   width: 50px;
   background-color: skyblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: fixed;
   right: 20px;
   bottom: 20px;
-  border: none;
-  outline: none;
   border-radius: 10px;
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
   cursor: pointer;
   z-index: 1;
-
 }
+
 
 /* common banner design */
 .banner {
@@ -172,7 +170,7 @@ nav .links {
 }
 
 nav .links a:hover {
-  color: skyblue;
+  color: blue;
 }
 
 /* hamburger nav */
@@ -322,20 +320,14 @@ nav .ham-line {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-button {
   cursor: pointer;
 }
+
 
 .audio.get {
   width: 30%;
 }
 
-audio {
-  /* height: 35px; */
-  width: 100%;
-}
 
 .getintouch .getintouchpic .get-in-touch p {
   width: 70%;
