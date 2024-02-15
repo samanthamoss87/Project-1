@@ -300,6 +300,13 @@ nav .ham-line {
 .audio {
   margin-top: 20px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
 }
 
 .audio.get {
@@ -307,7 +314,7 @@ nav .ham-line {
 }
 
 audio {
-  height: 35px;
+  /* height: 35px; */
   width: 100%;
 }
 

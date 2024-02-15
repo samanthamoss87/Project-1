@@ -17,3 +17,17 @@ acceptBtn.addEventListener("click", () => {
     cookiePopup.style.display = "none";
     alert("You accepted the Cookie Policy")
 })
+
+
+
+// Audio play pause functions
+function toggleAudio(audioId) {
+    let audio = document.getElementById(audioId)
+
+    if (audio.paused) {
+        audio.play()
+    } else {
+        audio.pause()
+        audio.currentTime = 0
+    }
+}

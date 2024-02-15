@@ -8,6 +8,10 @@
     content="experienced consultancy within the automotive, oem, tracking and video telematics industry">
   <link rel="shortcut icon" href="assets/img/main/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="./assets/styles/main.css">
+
+  <!-- Google Font Icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <title>RS Vision Consulting ltd</title>
 </head>
 
@@ -64,9 +68,12 @@
             <p>Welcome to RS Vision Consulting! The UK's market leading Video Telematics, Telematics, Software and
               Technology consulting business.</p>
             <div class="audio get">
-              <audio controls>
-                <source src="./assets/audio/introtext.mp3">
-              </audio>
+              <button onclick="toggleAudio('introAudio')">
+                <span class="material-symbols-outlined">
+                  volume_up
+                </span>
+              </button>
+              <audio src="./assets/audio/introtext.mp3" id="introAudio"></audio>
             </div>
           </div>
           <div>
@@ -92,9 +99,13 @@
             </div>
           </a>
           <div class="audio">
-            <audio controls>
-              <source src="./assets/audio/aboutusmainpage.mp3">
-            </audio>
+            <button onclick="toggleAudio('aboutUsAudio')">
+
+              <span class="material-symbols-outlined">
+                volume_up
+              </span>
+            </button>
+            <audio src="./assets/audio/aboutusmainpage.mp3" id="aboutUsAudio"></audio>
           </div>
         </div>
         <div class="card">
@@ -109,9 +120,12 @@
             </div>
           </a>
           <div class="audio">
-            <audio controls>
-              <source src="./assets/audio/servicesmainpage.mp3">
-            </audio>
+            <button onclick="toggleAudio('serviceMainPageAudio')">
+              <span class="material-symbols-outlined">
+                volume_up
+              </span>
+            </button>
+            <audio src="./assets/audio/servicesmainpage.mp3" id="serviceMainPageAudio"></audio>
           </div>
         </div>
 
@@ -128,9 +142,12 @@
             </div>
           </a>
           <div class="audio">
-            <audio controls>
-              <source src="./assets/audio/industrymainpage.mp3">
-            </audio>
+            <button onclick="toggleAudio('industryMainPageAudio')">
+              <span class="material-symbols-outlined">
+                volume_up
+              </span>
+            </button>
+            <audio src="./assets/audio/industrymainpage.mp3" id="industryMainPageAudio"></audio>
           </div>
         </div>
         <div class="card">
@@ -145,9 +162,12 @@
             </div>
           </a>
           <div class="audio">
-            <audio controls>
-              <source src="./assets/audio/contactusmainpage.mp3">
-            </audio>
+            <button onclick="toggleAudio('contactUsMainPageAudio')">
+              <span class="material-symbols-outlined">
+                volume_up
+              </span>
+            </button>
+            <audio src="./assets/audio/contactusmainpage.mp3" id="contactUsMainPageAudio"></audio>
           </div>
         </div>
       </div>
@@ -163,24 +183,28 @@
         <p>Our Mission: To empower our customers businesses to deliver better products & services to drive significant &
           sustainable growth.</p>
         <div class="audio get center">
-          <audio controls>
-            <source src="./assets/audio/personalstatement.mp3">
-          </audio>
+          <button onclick="toggleAudio('personalStatementAudio')">
+            <span class="material-symbols-outlined">
+              volume_up
+            </span>
+          </button>
+          <audio src="./assets/audio/personalstatement.mp3" id="personalStatementAudio"></audio>
         </div>
       </div>
     </div>
   </main>
-  
+
   <!-- Cookie Popup -->
   <div class="cookiePopup" id="cookie">
     <div class="cookiePopupContent">
-      <p>We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking "Accept All", you consent to our use of cookies.</p>
-      
+      <p>We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic.
+        By clicking "Accept All", you consent to our use of cookies.</p>
+
       <div class="cookiePopupButton">
         <button id="rejectBtn">Reject All</button>
         <button id="acceptBtn">Accept All</button>
       </div>
-      
+
     </div>
   </div>
 
@@ -193,7 +217,8 @@
     </div>
   </footer>
 
-    <script src="./assets/scripts/main.js"></script>
+
+  <script defer src="./assets/scripts/main.js"></script>
 </body>
 
 </html>

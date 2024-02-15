@@ -8,6 +8,10 @@
   <link rel="shortcut icon" href="assets/img/main/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="assets/styles/main.css">
   <link rel="stylesheet" href="assets/styles/industrysectors.css">
+
+  <!-- Google Font Icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <title>Industry Sectors</title>
 </head>
 
@@ -72,9 +76,12 @@
         <p>In addition, we also provide guidanceto telematics businesses seeking to better understand this sector and
           build products and services to meet the customer and supplier demands.</p>
         <div class="audio get center">
-          <audio controls>
-            <source src="./assets/audio/automotiveindustrypage.mp3">
-          </audio>
+          <button onclick="toggleAudio('automotiveIndustryPageAudio')">
+            <span class="material-symbols-outlined">
+              volume_up
+            </span>
+          </button>
+          <audio src="./assets/audio/automotiveindustrypage.mp3" id="automotiveIndustryPageAudio"></audio>
         </div>
       </div>
       <div class="industry-card">
@@ -90,9 +97,12 @@
         <p>Please visit our Services page for an overview of all the services we can provide. We would welcome the
           opportunity to assist you in taking your business to the next level.</p>
         <div class="audio get center">
-          <audio controls>
-            <source src="./assets/audio/videotelematicsindustry.mp3">
-          </audio>
+          <button onclick="toggleAudio('videoTelematicsIndustryAudio')">
+            <span class="material-symbols-outlined">
+              volume_up
+            </span>
+          </button>
+          <audio src="./assets/audio/videotelematicsindustry.mp3" id="videoTelematicsIndustryAudio"></audio>
         </div>
 
       </div>
@@ -110,9 +120,12 @@
           Pricing, Strategy and more. We can also support video enablement / integration of video into your existing OEM
           telematics platform.</p>
         <div class="audio get center">
-          <audio controls>
-            <source src="./assets/audio/oemindustrypage.mp3">
-          </audio>
+          <button onclick="toggleAudio('oemIndustryPageAudio')">
+            <span class="material-symbols-outlined">
+              volume_up
+            </span>
+          </button>
+          <audio src="./assets/audio/oemindustrypage.mp3" id="oemIndustryPageAudio"></audio>
         </div>
 
       </div>
@@ -131,9 +144,12 @@
           growth strategies.</p>
         <p>We provide support in areas inlcuding training, sales, performance management and recruitment.</p>
         <div class="audio get center">
-          <audio controls>
-            <source src="./assets/audio/telematicsindustrypage.mp3">
-          </audio>
+          <button onclick="toggleAudio('telematicsIndustryPageAudio')">
+            <span class="material-symbols-outlined">
+              volume_up
+            </span>
+          </button>
+          <audio src="./assets/audio/telematicsindustrypage.mp3" id="telematicsIndustryPageAudio"></audio>
         </div>
       </div>
     </div>
@@ -147,6 +163,9 @@
       <a href="moderndayslavery.html"> Modern Slavery Statement</a>
     </div>
   </footer>
+
+
+  <script defer src="./assets/scripts/main.js"></script>
 
 </body>
 

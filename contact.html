@@ -8,6 +8,10 @@
   <link rel="shortcut icon" href="assets/img/main/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="./assets/styles/main.css">
   <link rel="stylesheet" href="./assets/styles/contact.css">
+
+  <!-- Google Font Icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <title>Contact us</title>
 </head>
 
@@ -102,10 +106,13 @@
           <li>Company Reg No.: 15216729</li>
           <li>Vat Reg No: 452876365</li>
         </ul>
-        <div class="audio get centre">
-          <audio controls>
-            <source src="./assets/audio/contactus.mp3">
-          </audio>
+        <div class="audio get">
+          <button onclick="toggleAudio('contactUsAudio')">
+            <span class="material-symbols-outlined">
+              volume_up
+            </span>
+          </button>
+          <audio src="./assets/audio/contactus.mp3" id="contactUsAudio"></audio>
         </div>
       </div>
     </section>
@@ -119,6 +126,8 @@
       <a href="moderndayslavery.html"> Modern Slavery Statement</a>
     </div>
   </footer>
+
+  <script defer src="./assets/scripts/main.js"></script>
 
 </body>
 
