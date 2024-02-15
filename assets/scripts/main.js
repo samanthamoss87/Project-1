@@ -31,3 +31,25 @@ function toggleAudio(audioId) {
         audio.currentTime = 0
     }
 }
+
+
+// Functions for back to top button
+window.onscroll = function() {
+    scrollFunction()
+}
+
+function scrollFunction() {
+    let backToTopBtn = document.getElementById("backToTopBtn")
+
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+        console.log("Scrolling")
+        backToTopBtn.style.display = "block"
+    } else {
+        backToTopBtn.style.display = "none"
+    }
+}
+
+function scrollToTop() {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+}

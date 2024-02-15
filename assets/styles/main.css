@@ -37,6 +37,25 @@ ul li {
   margin: auto auto;
 }
 
+.backtotop {
+  height: 50px;
+  width: 50px;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  display: none;
+  cursor: pointer;
+  z-index: 1;
+
+}
+
 /* common banner design */
 .banner {
   margin-top: 55px;
@@ -92,18 +111,18 @@ ul li {
 #rejectBtn{
   outline: none;
   cursor: pointer;
-  border: 1px solid skyblue;
+  border: 1px solid blue;
   background-color: white;
   padding: 10px 20px;
-  color: skyblue;
+  color: blue;
   transition: all .3s ease;
 }
 
 #acceptBtn{
   outline: none;
   cursor: pointer;
-  border: 1px solid skyblue;
-  background-color: skyblue;
+  border: 1px solid blue;
+  background-color: blue;
   padding: 10px 20px;
   color: white;
   transition: all .3s ease;
@@ -111,7 +130,7 @@ ul li {
 
 #acceptBtn:hover {
   background-color: white;
-  color: skyblue;
+  color: blue;
 }
 /* nav bar styles */
 nav {
@@ -153,7 +172,7 @@ nav .links {
 }
 
 nav .links a:hover {
-  color: blue;
+  color: skyblue;
 }
 
 /* hamburger nav */
