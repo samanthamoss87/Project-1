@@ -48,9 +48,11 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
   cursor: pointer;
   z-index: 1;
+  visibility: hidden;
+  border: none;
+  outline: none;
 }
 
 
@@ -171,6 +173,39 @@ nav .links {
 
 nav .links a:hover {
   color: blue;
+}
+.contactlink {
+  display: flex;
+  gap: 20px;
+  /* position: relative; */
+}
+
+.langIcon {
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.langOptions {
+  background: white;
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  display: none;
+}
+.langOptions.active {
+  display: block;
+}
+.langOptions p {
+  padding: 10px 0;
+  cursor: pointer;
+  padding: 10px 40px;
+}
+
+.langOptions p:hover {
+  background: skyblue;
 }
 
 /* hamburger nav */

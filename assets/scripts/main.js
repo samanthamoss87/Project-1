@@ -42,13 +42,34 @@ function scrollFunction() {
     let backToTopBtn = document.getElementById("backToTopBtn")
 
     if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-        backToTopBtn.style.opacity = 1
+        backToTopBtn.style.visibility = "visible"
     } else {
-        backToTopBtn.style.opacity = 0
+        backToTopBtn.style.visibility = "hidden"
     }
 }
 
 function scrollToTop() {
     document.body.scrollTop = 0
     document.documentElement.scrollTop = 0
+}
+
+
+// Logic for the languages
+const languageBtn = document.getElementById("changeLangBtn")
+const languagePopup = document.getElementById("langOptions")
+let language = document.getElementById("language")
+
+console.log(language)
+let currentLanguage = "EN"
+
+languageBtn.addEventListener('click', function(){
+    languagePopup.classList.toggle("active")
+})
+
+function changeLang(lang) {
+    currentLanguage = lang
+    language.innerText = currentLanguage.toUpperCase()
+    if (languagePopup.classList.contains('active')){
+        languagePopup.classList.remove('active')
+    }
 }
