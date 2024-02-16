@@ -54,7 +54,7 @@ function scrollToTop() {
 }
 
 
-// Functions for management page
+// Functions for management page in the nav
 const aboutLink = document.getElementById("aboutLink")
 const managementArea = document.getElementById("managementArea")
 const managementLink = document.getElementById("managementLink")

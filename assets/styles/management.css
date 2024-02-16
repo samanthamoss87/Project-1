@@ -1,0 +1,50 @@
+main {
+    width: 100%;
+    padding: 3rem 5rem;
+}
+
+.richard{
+    margin-bottom: 5rem;
+}
+
+.richard,
+.samantha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.image {
+    flex: 1;
+}
+
+.content{
+    width: 500px;
+}
+.image {
+    max-width: 400px;
+}
+.image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    main{
+        padding: 2rem 1rem;
+    }
+    .richard {
+        flex-direction: column;
+    }
+    .samantha{
+        flex-direction: column-reverse;
+    }
+    .content {
+        width: 100%;
+    }
+}
