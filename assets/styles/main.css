@@ -169,15 +169,32 @@ nav .links {
       -ms-flex-align: center;
           align-items: center;
   gap: 30px;
+
 }
 
 nav .links a:hover {
   color: blue;
 }
+
+#aboutLink{
+  position: relative;
+}
+
+.managementDropdown {
+  position: absolute;
+  background-color: white;
+  padding: 10px 30px;
+  top: 45px;
+  left: 0;
+  display: none;
+}
+.managementDropdown.active {
+  display: block;
+}
+
 .contactlink {
   display: flex;
   gap: 20px;
-  /* position: relative; */
 }
 
 .langIcon {
