@@ -25,15 +25,34 @@
             alt="Mail Logo">
         </a>
       </div>
+
       <div class="links">
         <a href="index.html">Home</a>
-        <a href="about.html">About us</a>
+        <div id="aboutLink">
+          <a href="about.html">About Us</a>
+          <div class="managementDropdown" id="managementArea">
+            <a href="management.html" id="managementLink">Management</a>
+          </div>
+        </div>
         <a href="industrysectors.html">Industry</a>
         <a href="services.html">Services</a>
-      </div>
-      <div class="contactlink">
         <a href="contact.html">Contact us</a>
       </div>
+
+      <div class="contactlink">
+        <div class="langIcon" id="changeLangBtn">
+          <span class="material-symbols-outlined">
+            expand_more
+          </span>
+          <span id="language">EN</span>
+        </div>
+
+        <div class="langOptions" id="langOptions">
+          <p onclick="changeLang('en')">English</p>
+          <p onclick="changeLang('fr')">French</p>
+        </div>
+      </div>
+
       <!-- toggle icon -->
       <input class="sidemenu" type="checkbox" id="sidemenu">
       <label class="hamicon" for="sidemenu"><span class="ham-line"></span></label>
@@ -111,7 +130,7 @@
     </div>
   </footer>
 
-  <script defer src="./assets/scripts/main.js"></script>
+  <script src="./assets/scripts/main.js"></script>
 
 </body>
 
