@@ -480,6 +480,11 @@ footer .footerlinks a:hover {
     width: 100%;
   }
   
+  .cookiePopup {
+    padding: 1rem;
+    height: auto;
+  }
+
   nav .logo img {
     width: 20px;
     height: 20px;
