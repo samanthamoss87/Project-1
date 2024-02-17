@@ -22,6 +22,8 @@ main {
 
 .content{
     width: 500px;
+    padding: 1rem;
+    background: white;
 }
 .image {
     max-width: 400px;

@@ -50,7 +50,7 @@ const languageBtn = document.getElementById("changeLangBtn")
 const languagePopup = document.getElementById("langOptions")
 let language = document.getElementById("language")
 
-console.log(language)
+
 let currentLanguage = "EN"
 
 languageBtn.addEventListener('click', function(){
@@ -65,3 +65,17 @@ function changeLang(lang) {
     }
 }
 
+// Nav functions
+const hamBtn = document.getElementById("hamBtn")
+const mobileMenu = document.getElementById("mobileMenu")
+const openBtn = document.getElementById("open")
+const closeBtn = document.getElementById("close")
+
+hamBtn.addEventListener('click', function() {
+    const mobileMenu = document.getElementById("mobileMenu")
+
+    mobileMenu.classList.toggle("active")
+
+    openBtn.classList.toggle("hide-icon")
+    closeBtn.classList.toggle("hide-icon")
+})

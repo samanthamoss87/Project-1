@@ -24,6 +24,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -234,44 +238,14 @@ nav .sidemenu {
   position: relative;
 }
 
-nav .hamicon {
-  position: absolute;
-  top: 50%;
-  right: 40px;
-  -webkit-transform: translate(-50%);
-      -ms-transform: translate(-50%);
-          transform: translate(-50%);
+nav #hamBtn {
   display: none;
-}
-
-nav .ham-line {
-  background-color: black;
-  display: block;
-  position: relative;
-  height: 2px;
-  width: 24px;
-}
-
-.ham-line::after,
-.ham-line::before {
-  position: absolute;
-  content: "";
-  background-color: black;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-.ham-line::before {
-  top: 5px;
-}
-
-.ham-line::after {
-  top: -5px;
+  cursor: pointer;
 }
 
 .mobilemenu {
   display: none;
+  background-color: white;
   position: absolute;
   top: 60px;
   left: 0;
@@ -280,10 +254,14 @@ nav .ham-line {
   padding: 20px;
   text-align: center;
 }
-
-.sidemenu:checked~.mobilemenu {
+.mobilemenu.active {
   display: block;
 }
+
+.material-symbols-outlined.hide-icon {
+  display: none;
+}
+
 
 /* hero style */
 .hero {
@@ -368,16 +346,7 @@ nav .ham-line {
 
 .audio {
   margin-top: 20px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
-}
-
-
-.audio.get {
-  width: 30%;
 }
 
 
@@ -510,12 +479,13 @@ footer .footerlinks a:hover {
   .audio.get {
     width: 100%;
   }
+  
   nav .logo img {
     width: 20px;
     height: 20px;
   }
 
-  nav .ham {
+  nav #hamBtn {
     display: block;
   }
 
@@ -524,13 +494,8 @@ footer .footerlinks a:hover {
     display: none;
   }
 
-  nav .hamicon {
+  nav #hamBtn {
     display: block;
-  }
-
-  .sidemenu:checked~.mobilemenu {
-    display: block;
-    background-color: white;
   }
 
   .mobilemenulinks {
