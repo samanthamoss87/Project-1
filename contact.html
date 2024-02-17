@@ -12,6 +12,10 @@
   <!-- Google Font Icons -->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
+    <!-- Script for Email js -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript" src="./assets/scripts/contact.js"></script>
   <title>Contact us</title>
 </head>
 
@@ -54,7 +58,7 @@
 
       <!-- toggle icon -->
       <div id="hamBtn">
-        <span class="material-symbols-outlined"id="open"> menu </span>
+        <span class="material-symbols-outlined" id="open"> menu </span>
         <span class="material-symbols-outlined hide-icon" id="close"> close </span>
       </div>
 
@@ -81,38 +85,38 @@
     <!-- contact us forms -->
     <section class="contact">
       <div class="contactform">
-        <form method="post" action="https://formdump.codeinstitute.net/">
+        <form id="contact-form">
           <div>
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" required>
+            <input type="text" name="name" id="name" required />
           </div>
           <div>
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
+            <input type="email" name="email" id="email" required />
           </div>
           <div>
             <div class="checkArea">
-              <input type="checkbox" id="automotive">
+              <input type="checkbox" id="automotive" name="automotive" value="Automotive" />
               <label for="automotive">Automotive</label>
             </div>
             <div class="checkArea">
-              <input type="checkbox" id="oem">
+              <input type="checkbox" name="oem" id="oem" value="OEM" />
               <label for="oem">OEM</label>
             </div>
             <div class="checkArea">
-              <input type="checkbox" id="videotelematics">
+              <input type="checkbox" id="videotelematics" name="videoTelematics" value="videotelematics" />
               <label for="videotelematics">Video Telematics</label>
             </div>
             <div class="checkArea">
-              <input type="checkbox" id="telematics">
+              <input type="checkbox" id="telematics" name="telematics" value="Telematics" />
               <label for="telematics">Telematics</label>
             </div>
           </div>
           <div>
             <label for="message">Message</label>
-            <textarea name="message" required id="message"></textarea>
+            <textarea name="message" id="message"></textarea>
           </div>
-          <button type="submit" class="submitBtn">Submit</button>
+          <input id="submit" type="submit" class="submitBtn" onclick="sendForm()" value="Submit"></input>
         </form>
       </div>
       <div class="contactInfo">
@@ -145,7 +149,7 @@
       arrow_upward
     </span>
   </button>
-  
+
   <footer>
     <div class="footerlinks">
       <a href="termsandconditions.html"> Terms and Conditions</a>
