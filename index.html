@@ -26,6 +26,12 @@
     gtag('config', 'G-E7E8F3VBG1');
   </script>
 
+  <!-- Swiper Js for sliders -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Swiper Js  -->
+
   <title>RS Vision Consulting ltd</title>
 </head>
 
@@ -68,7 +74,7 @@
 
       <!-- toggle icon -->
       <div id="hamBtn">
-        <span class="material-symbols-outlined"id="open"> menu </span>
+        <span class="material-symbols-outlined" id="open"> menu </span>
         <span class="material-symbols-outlined hide-icon" id="close"> close </span>
       </div>
 
@@ -115,6 +121,25 @@
             <a href="/contact.html">Get in touch</a>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- Slider main container -->
+    <div class="slide">
+      <div class="sliderStaticContent">
+        <h2>Passionate about reducing road collisions and <span>saving lives</span></h2>
+        <p>Delivering true value and ROI, no matter the size, type and activity of your vehicle operation.</p>
+        <button>
+          <a href="/contact.html">Find out More</a>
+        </button>
+      </div>
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper" id="swiper-wrapper">
+          <!-- Slides -->
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
       </div>
     </div>
 
@@ -260,6 +285,7 @@
 
   <script src="./assets/scripts/index.js"></script>
   <script src="./assets/scripts/main.js"></script>
+  <script type="module" src="./assets/scripts/slider.js"></script>
 </body>
 
 </html>
