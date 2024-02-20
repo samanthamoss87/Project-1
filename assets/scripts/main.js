@@ -32,19 +32,6 @@ function scrollToTop() {
 }
 
 
-// Functions for management page in the nav
-const aboutLink = document.getElementById("aboutLink")
-const managementArea = document.getElementById("managementArea")
-const managementLink = document.getElementById("managementLink")
-
-aboutLink.addEventListener('mouseenter', function() {
-    managementArea.classList.add('active')
-})
-managementLink.addEventListener('click', function(){
-    managementArea.classList.remove("active")
-})
-
-
 // Logic for the languages
 const languageBtn = document.getElementById("changeLangBtn")
 const languagePopup = document.getElementById("langOptions")

@@ -44,7 +44,8 @@ ul li {
 .backtotop {
   height: 50px;
   width: 50px;
-  background-color: skyblue;
+  background-color: blue;
+  color: white;
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -178,22 +179,6 @@ nav .links {
 
 nav .links a:hover {
   color: blue;
-}
-
-#aboutLink{
-  position: relative;
-}
-
-.managementDropdown {
-  position: absolute;
-  background-color: white;
-  padding: 10px 30px;
-  top: 45px;
-  left: 0;
-  display: none;
-}
-.managementDropdown.active {
-  display: block;
 }
 
 .contactlink {
