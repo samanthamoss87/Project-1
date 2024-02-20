@@ -12,6 +12,9 @@
   <!-- Google Font Icons -->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Animate on Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>About us</title>
 </head>
 
@@ -76,7 +79,7 @@
 
   <main>
     <!-- about us summary -->
-    <div class="aboutusinfo">
+    <div class="aboutusinfo" data-aos="fade-up">
       <p>RS Vision Consulting has over 20+ years of experience combined in Automotive, OEM, telematics and video
         telematics. Having worked across all areas of business, we are confident that our team will quickly gain a solid
         understanding of all elements of your organisation. This will allow our team to rapidly deliver tangible
@@ -94,12 +97,12 @@
 
     <!-- about us main sectoin -->
     <div class="aboutus">
-      <div class="img">
+      <div class="img" data-aos="fade-right">
         <img src="assets/img/about/aboutusmainpic.webp" alt="About us page img">
         <div class="bg">
         </div>
       </div>
-      <div class="abouttext">
+      <div class="abouttext" data-aos="fade-left">
         <p>We serve customers across a wide variety of industry sectors, with our primary focus on the Telematics,
           Automotive & OEM sectors.</p>
         <br>
@@ -135,6 +138,12 @@
   </footer>
 
   <script src="./assets/scripts/main.js"></script>
+
+  <!-- Animate on scroll -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

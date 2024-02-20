@@ -12,6 +12,9 @@
   <!-- Google Font Icons -->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!-- Animate on scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Service</title>
 </head>
 
@@ -75,7 +78,7 @@
 
   <main>
     <!-- Summary for service section -->
-    <div class="servicesummarytext">
+    <div class="servicesummarytext" data-aos="fade-up">
       <p>We offer bespoke consultancy services in all the sectors below, whatever your businesses wants and needs are we
         can deliver on a Strategy to meet the requirements and achieve your goals.</p>
       <div class="audio">
@@ -91,13 +94,13 @@
 
     <!-- Service main section -->
     <div class="servicegrid">
-      <div class="grid1">
-        <div class="video">
+      <div class="grid1" >
+        <div class="video" data-aos="fade-right">
           <video autoplay loop>
             <source src="assets/video/services/servicevideo.mp4" type="video/mp4">
           </video>
         </div>
-        <div class="list">
+        <div class="list" data-aos="fade-left">
           <h2>
             Technical Services</h2>
           <ul>
@@ -117,8 +120,8 @@
         </div>
       </div>
 
-      <div class="grid2">
-        <div class="text">
+      <div class="grid2" >
+        <div class="text" data-aos="fade-up">
           <h2>
             Business Services </h2>
           <ul>
@@ -131,12 +134,12 @@
           </ul>
         </div>
 
-        <div class="image">
+        <div class="image" data-aos="fade-down">
           <img src="assets/img/services/mainservicepic.webp" alt="Service Photo">
         </div>
       </div>
 
-      <div class="serviceproduct">
+      <div class="serviceproduct" data-aos="fade-up">
         <div class="productinfo-card">
 
           <h3>PRODUCT & TECHNOLOGY</h3>
@@ -149,7 +152,7 @@
         </div>
       </div>
       <br>
-      <div class="servicesales">
+      <div class="servicesales" data-aos="fade-up" data-aos-delay="100">
         <div class="servicesales-card">
           <h3>SALES</h3>
           <p> Strategy development to increase new business sales.
@@ -163,7 +166,7 @@
         </div>
         <br>
 
-        <div class="serviceoperations">
+        <div class="serviceoperations" data-aos="fade-up" data-aos-delay="200">
           <div class="serviceops-card">
             <h3>OPERATIONS</h3>
             <p>Sales order processing review - This is with a view to improving customer experience, making processes
@@ -176,7 +179,7 @@
           </div>
         </div>
 
-        <div class="servicemarketing">
+        <div class="servicemarketing" data-aos="fade-up" data-aos-delay="300">
           <div class="servicemarketing-card">
             <h3>MARKETING</h3>
             <p>Review of marketing collateral, POS, websites & product content, creation of new product content and
@@ -210,6 +213,10 @@
   </footer>
 
   <script src="./assets/scripts/main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 

@@ -99,6 +99,7 @@ ul li {
   bottom: 0;
   display: none;
   border-top: 2px solid skyblue;
+  z-index: 1000;
 }
 
 .cookiePopup .cookiePopupContent p{
@@ -332,8 +333,14 @@ nav #hamBtn {
 .audio {
   margin-top: 20px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.left {
+  justify-content: start;
+}
 
 .getintouch .getintouchpic .get-in-touch p {
   width: 70%;

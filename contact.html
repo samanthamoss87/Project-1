@@ -12,10 +12,14 @@
   <!-- Google Font Icons -->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  
-    <!-- Script for Email js -->
+
+  <!-- Script for Email js -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script type="text/javascript" src="./assets/scripts/contact.js"></script>
+
+  <!-- Animate on scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <title>Contact us</title>
 </head>
 
@@ -83,15 +87,15 @@
     <section class="contact">
       <div class="contactform">
         <form id="contact-form">
-          <div>
+          <div data-aos="fade-up">
             <label for="name">Name</label>
             <input type="text" name="name" id="name" required />
           </div>
-          <div>
+          <div data-aos="fade-up" data-aos-delay="100">
             <label for="email">Email</label>
             <input type="email" name="email" id="email" required />
           </div>
-          <div>
+          <div data-aos="fade-up" data-aos-delay="200">
             <div class="checkArea">
               <input type="checkbox" id="automotive" name="automotive" value="Automotive" />
               <label for="automotive">Automotive</label>
@@ -109,14 +113,14 @@
               <label for="telematics">Telematics</label>
             </div>
           </div>
-          <div>
+          <div data-aos="fade-up" data-aos-delay="300">
             <label for="message">Message</label>
             <textarea name="message" id="message"></textarea>
           </div>
-          <input id="submit" type="submit" class="submitBtn" onclick="sendForm()" value="Submit"></input>
+          <input data-aos="fade-up" data-aos-delay="400" id="submit" type="submit" class="submitBtn" onclick="sendForm()" value="Submit"></input>
         </form>
       </div>
-      <div class="contactInfo">
+      <div class="contactInfo" data-aos="fade-down">
         <h1>RS Vision Consulting Ltd</h1>
         <ul>
           <li>Glover & Co 22 High Street, Epworth, Doncaster, DN9 1ET</li>
@@ -128,7 +132,7 @@
           <li>Company Reg No.: 15216729</li>
           <li>Vat Reg No: 452876365</li>
         </ul>
-        <div class="audio get">
+        <div class="audio get left">
           <div onclick="toggleAudio('contactUsAudio')">
             <span class="material-symbols-outlined">
               volume_up
@@ -157,7 +161,10 @@
   </footer>
 
   <script src="./assets/scripts/main.js"></script>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

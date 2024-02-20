@@ -34,6 +34,10 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <!-- Swiper Js  -->
 
+  <!-- Animate on scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
   <title>RS Vision Consulting ltd</title>
 </head>
 
@@ -92,7 +96,7 @@
 
   <main>
     <!-- hero section -->
-    <div class="hero">
+    <div class="hero" data-aos="fade-up">
       <video height="600" autoplay loop muted>
         <source src="assets/video/main/mainpagevideo.mp4" type="video/mp4">
       </video>
@@ -100,14 +104,14 @@
     </div>
 
     <!-- get in touch section -->
-    <div class="getintouch">
+    <div class="getintouch" data-aos="fade-up">
       <div class="getintouchpic">
         <img src="assets/img/main/mainpagephoto.webp" alt="Get in touch">
         <div class="get-in-touch">
           <div class="audiomaintext">
             <p>Welcome to RS Vision Consulting! The UK's market leading Video Telematics, Telematics, Software and
               Technology consulting business.</p>
-            <div class="audio get">
+            <div class="audio get left">
               <div onclick="toggleAudio('introAudio')">
                 <span class="material-symbols-outlined">
                   volume_up
@@ -124,7 +128,7 @@
     </div>
 
     <!-- Slider main container -->
-    <div class="slide">
+    <div class="slide" data-aos="fade-up">
       <div class="sliderStaticContent">
         <h2>Passionate about reducing road collisions and <span>saving lives</span></h2>
         <p>Delivering true value and ROI, no matter the size, type and activity of your vehicle operation.</p>
@@ -146,7 +150,7 @@
     <div class="info">
       <div class="cards">
 
-        <div class="card">
+        <div class="card" data-aos="fade-up"data-aos-delay="50">
           <a href="about.html">
             <div class="card-icon">
               <img width="50" height="50" src="https://img.icons8.com/ios/100/groups.png" alt="about us">
@@ -167,7 +171,7 @@
             <audio src="./assets/audio/aboutusmainpage.mp3" id="aboutUsAudio"></audio>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-up" data-aos-delay="100">
           <a href="services.html">
             <div class="card-icon">
               <img width="50" height="50" src="https://img.icons8.com/ios/100/service--v1.png" alt="services">
@@ -189,7 +193,7 @@
         </div>
 
 
-        <div class="card">
+        <div class="card " data-aos="fade-up" data-aos-delay="200">
           <a href="industrysectors.html">
             <div class="card-icon">
               <img width="50" height="50" src="https://img.icons8.com/ios/100/factory-1.png" alt="industry">
@@ -209,7 +213,7 @@
             <audio src="./assets/audio/industrymainpage.mp3" id="industryMainPageAudio"></audio>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-up" data-aos-delay="300">
           <a href="contact.html">
             <div class="card-icon">
               <img width="50" height="50" src="https://img.icons8.com/ios/100/apple-contacts.png" alt="contact">
@@ -233,7 +237,7 @@
     </div>
 
     <!-- personal note section -->
-    <div class="personal">
+    <div class="personal" data-aos="fade-up">
       <div class="personal-card">
         <p>Our leadership team have extensive (30+ years) of industry experience across the Video/Telematics, Automotive
           & OEM sectors.</p>
@@ -285,6 +289,12 @@
   <script src="./assets/scripts/index.js"></script>
   <script src="./assets/scripts/main.js"></script>
   <script type="module" src="./assets/scripts/slider.js"></script>
+
+  <!-- Animate on scroll -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

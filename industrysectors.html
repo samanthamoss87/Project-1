@@ -12,7 +12,10 @@
   <!-- Google Font Icons -->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <title>Industry Sectors</title>
+  
+  <!-- Animate on scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Industry Sectors</title>
 </head>
 
 <body>
@@ -76,15 +79,15 @@
 
   <main>
     <!-- Industry summary -->
-    <div class="industrysummary">
+    <div class="industrysummary" data-aos="fade-up">
       <p>RS Vision Consulting specialise in the industry sectors below from Board Level Management, Marketing, Sales,
         Mid-level Leadership and Recruitment to Technology, Hardware, Software Development and Strategy. </p>
     </div>
 
     <!-- Industry section -->
     <div class="industry">
-      <div class="industry-card">
-        <h1>Automotive</h1>
+      <div class="industry-card" data-aos="fade-right">
+        <h1 >Automotive</h1>
         <p>With more than 20+ years of Automotive sector experience across dealerships, Auction Houses, Leasing
           companies and OEM's, our team can provide expert guidance to our Automotive Partners on video/telematics,
           hardware, software, installion services and legislation including DVS 2024.</p>
@@ -102,19 +105,19 @@
           <audio src="./assets/audio/automotiveindustrypage.mp3" id="automotiveIndustryPageAudio"></audio>
         </div>
       </div>
-      <div class="industry-card">
-        <h1>Video Telematics</h1>
-        <p>We are subject matter experts on video telematics, before starting RS Vision Consulting, our leadership team
+      <div class="industry-card" data-aos="fade-left">
+        <h1 data-aos="fade-up">Video Telematics</h1>
+        <p data-aos="fade-up">We are subject matter experts on video telematics, before starting RS Vision Consulting, our leadership team
           were instrumental in the creation and expediential growth of the Europe’s market leading video telematics
           providers.</p>
-        <p>Our team have extensive experience within Sales, Marketing, Product, Software / Platform Development,
+        <p data-aos="fade-up">Our team have extensive experience within Sales, Marketing, Product, Software / Platform Development,
           Commercial, Management, Installations & Operations.</p>
-        <p>Our team have also led M&A activities, we have prepared business for investment alongside investment banks,
+        <p data-aos="fade-up">Our team have also led M&A activities, we have prepared business for investment alongside investment banks,
           prepared presentations and delivered them to VC/PE houses as well as private investors. We have also prepared
           data rooms for investment due diligence.</p>
-        <p>Please visit our Services page for an overview of all the services we can provide. We would welcome the
+        <p data-aos="fade-up">Please visit our Services page for an overview of all the services we can provide. We would welcome the
           opportunity to assist you in taking your business to the next level.</p>
-        <div class="audio get center">
+        <div class="audio get center" data-aos="fade-up">
           <div onclick="toggleAudio('videoTelematicsIndustryAudio')">
             <span class="material-symbols-outlined">
               volume_up
@@ -124,7 +127,7 @@
         </div>
 
       </div>
-      <div class="industry-card">
+      <div class="industry-card" data-aos="fade-left">
         <h1>OEM</h1>
         <p>With more than 20 years of experience in working with Plant, Equipment and Vehicle manufacturers / OEM’s, in
           respect of the provision of Video Telematics, camera and vehicle safety solutions. From production line fit
@@ -147,7 +150,7 @@
         </div>
 
       </div>
-      <div class="industry-card">
+      <div class="industry-card" data-aos="fade-right">
         <h1>Telematics</h1>
         <p>Our management team have more than thirty years of Telematics industry experience, having held senior
           European leadership roles, within some of the world’s largest telematics providers.</p>
@@ -191,6 +194,12 @@
 
 
   <script src="./assets/scripts/main.js"></script>
+
+  <!-- Animate on Scroll -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 

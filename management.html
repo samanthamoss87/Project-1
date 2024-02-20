@@ -13,7 +13,10 @@
     <!-- Google Font Icons -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>Management</title>
+        
+        <!-- Animate on scroll -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <title>Management</title>
 </head>
 
 <body>
@@ -76,11 +79,11 @@
 
     <main>
         <div class="richard">
-            <div class="image">
+            <div class="image" data-aos="fade-right">
                 <img src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"
                     alt="Richard Lane">
             </div>
-            <div class="content">
+            <div class="content" data-aos="fade-left">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab commodi reprehenderit suscipit excepturi
                 debitis iste tenetur ea non eius aspernatur delectus id tempora accusantium doloribus eum enim, incidunt
                 sequi. Neque eligendi, debitis vero id tenetur adipisci? Fuga dicta molestias quo itaque eius vero
@@ -93,7 +96,7 @@
         </div>
 
         <div class="samantha">
-            <div class="content">
+            <div class="content" data-aos="fade-right">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, molestias. Exercitationem, dolores a
                 dolor atque tempore ipsam, possimus culpa, provident eos iste illum voluptas vel sapiente saepe autem
                 dolorem quasi illo sed sint? Voluptates aut explicabo quibusdam illum veritatis saepe. Eaque deserunt
@@ -103,7 +106,7 @@
                 deserunt tempora incidunt commodi beatae, laboriosam est. Quisquam quaerat voluptates accusantium
                 delectus iusto reiciendis itaque reprehenderit minima? Quia.
             </div>
-            <div class="image">
+            <div class="image" data-aos="fade-left">
                 <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
                     alt="Samantha">
             </div>
@@ -120,6 +123,12 @@
     </footer>
 
     <script src="./assets/scripts/main.js"></script>
+
+    <!-- Animate on scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 
