@@ -19,18 +19,3 @@ acceptBtn.addEventListener("click", () => {
 })
 
 
-// Change logo when browser is small
-function updateImgSrc() {
-    const logo = document.getElementById("logo")
-    let windowWidth = window.innerWidth
-
-    if (windowWidth<1000) {
-        logo.src = './assets/img/logo/RSLogo.png'
-    } else {
-        logo.src = './assets/img/logo/RSVisionLogo.png'
-    }
-}
-
-updateImgSrc()
-
-window.addEventListener('resize', updateImgSrc)
