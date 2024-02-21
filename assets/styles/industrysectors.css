@@ -11,10 +11,13 @@
 * Autoprefixer: v10.4.7
 * Browsers: last 4 versions
 */
+.industrySection {
+  width: 100%;
+  padding: 3rem 5rem;
+}
 
 .industrysummary {
   width: 100%;
-  padding: 3rem 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,7 +36,6 @@
 }
 
 .industry {
-  padding: 3rem 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,6 +75,71 @@
   margin-bottom: 1rem;
 }
 
+.dataVisualization {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dataVisualizationText h2{
+  margin-bottom: 1.5rem;
+}
+
+.dataVisualizationText p{
+  width: 80%;
+  margin-bottom: 1.5rem;
+}
+
+.dataVisualizationText button{
+  border: 1px solid black;
+  outline: none;
+  background: none;
+  padding: .5rem 3rem;
+  transition: all .3s ease;
+}
+
+.dataVisualizationText button:hover{
+  background-color: black;
+}
+.dataVisualizationText button:hover a{
+  color: white;
+}
+/* Charts */
+.chartjs {
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+
+.extendedChartInfo{
+  width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .6);
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 30px;
+}
+
+.extendedChartInfo.hidden{
+  display: none;
+}
+.extendedChartInfo.active{
+  display: block;
+}
+
+.closeIcon{
+  color: red;
+  cursor: pointer;
+}
+
 /* Media queries for phone */
 @media screen and (max-width:768px) {
   .industrysummary {
@@ -93,5 +160,15 @@
   }
   .industry .industry-card h1 {
     font-size: 1.5rem;
+  }
+  .dataVisualization{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .dataVisualizationText {
+    text-align: center;
+  }
+  .dataVisualizationText p{
+    width: 100%;
   }
 }
