@@ -3,6 +3,14 @@ main {
     padding: 3rem 5rem;
 }
 
+.managementText{
+    margin-bottom: 2rem;
+}
+.managementText p{
+    text-align: center;
+
+}
+
 .richard{
     margin-bottom: 5rem;
 }
@@ -10,30 +18,31 @@ main {
 .richard,
 .samantha {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
     gap: 2rem;
 }
-
-
-.image {
+.richard .content{
     flex: 1;
-}
-
-.content{
-    width: 500px;
     padding: 1rem;
     background: white;
 }
-.image {
-    max-width: 400px;
+.richard .content p{
+    margin-bottom: .5rem;
 }
-.image img{
+.richard .content ul{
+    margin: 1rem 0 1rem 1rem;
+}
+.richard .content ul li{
+    list-style: disc;
+}
+.richard #image{
+    width: 600px;
+}
+
+.richard #image img{
     width: 100%;
     object-fit: cover;
 }
-
-
 
 
 @media screen and (max-width:768px) {
@@ -44,9 +53,14 @@ main {
         flex-direction: column;
     }
     .samantha{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .content {
         width: 100%;
     }
+
+    .richard #image{
+        width: 100%;
+    }
+
 }

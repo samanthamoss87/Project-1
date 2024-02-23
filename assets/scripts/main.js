@@ -31,27 +31,6 @@ function scrollToTop() {
     document.documentElement.scrollTop = 0
 }
 
-
-// Logic for the languages
-const languageBtn = document.getElementById("changeLangBtn")
-const languagePopup = document.getElementById("langOptions")
-let language = document.getElementById("language")
-
-
-let currentLanguage = "EN"
-
-languageBtn.addEventListener('click', function(){
-    languagePopup.classList.toggle("active")
-})
-
-function changeLang(lang) {
-    currentLanguage = lang
-    language.innerText = currentLanguage.toUpperCase()
-    if (languagePopup.classList.contains('active')){
-        languagePopup.classList.remove('active')
-    }
-}
-
 // Nav functions
 const hamBtn = document.getElementById("hamBtn")
 const mobileMenu = document.getElementById("mobileMenu")
@@ -83,3 +62,117 @@ function updateImgSrc() {
 updateImgSrc()
 
 window.addEventListener('resize', updateImgSrc)
+
+
+// ==================================
+// Logic for the languages
+// ==================================
+const languageBtn = document.getElementById("changeLangBtn");
+const languagePopup = document.getElementById("langOptions");
+let language = document.getElementById("language");
+
+let currentLanguage = "EN";
+let translationsPromise = loadTranslations(); // Start loading translations immediately
+// console.log(translationsPromise)
+
+
+languageBtn.addEventListener("click", function () {
+  languagePopup.classList.toggle("active");
+});
+
+// Set the local storage
+function setLanguageLocalStorage(lang) {
+  localStorage.setItem("userLanguage", lang);
+}
+
+// Get the local storage
+function getLanguageLocalStorage() {
+  return localStorage.getItem("userLanguage");
+}
+
+document.addEventListener("DOMContentLoaded", async function () {
+  // Initialize the currentLanguage from local storage
+  currentLanguage = getLanguageLocalStorage() || "en";
+
+  // Load translation from JSON file
+  loadTranslations()
+    .then((loadedTranslations) => {
+      translations = loadedTranslations;
+      applyLanguage(currentLanguage);
+    })
+    .catch((error) => {
+      console.error("Error loading translations:", error);
+    });
+});
+
+async function loadTranslations() {
+  try {
+    const response = await fetch("./assets/scripts/data.json");
+    const translations = await response.json();
+    return translations;
+  } catch (err) {
+    console.error("Error loading translations:", err);
+    throw err
+  }
+}
+
+function applyLanguage(lang) {
+  currentLanguage = lang;
+
+  setLanguageLocalStorage(lang);
+
+  if (!translations) {
+    // If translations are not loaded yet, load them first
+    loadTranslations()
+      .then((loadedTranslations) => {
+        translations = loadedTranslations;
+        applyLanguage(currentLanguage);
+      })
+      .catch((error) => {
+        console.error("Error loading translations:", error);
+      });
+    return;
+  }
+
+  const lan = document.getElementsByClassName("lang");
+  language.innerText = currentLanguage.toUpperCase();
+
+  for (let i = 0; i < lan.length; i++) {
+    const element = lan[i];
+    const translationKey = element.getAttribute("data-translation-key");
+    console.log("From line 140",translationKey)
+    // Fetch translation or update content based on JSON data
+    element.textContent = getTranslation(lang, translationKey);
+  }
+
+  if (languagePopup.classList.contains("active")) {
+    languagePopup.classList.remove("active");
+  }
+}
+
+function changeLang(lang) {
+  currentLanguage = lang;
+  setLanguageLocalStorage(lang);
+  applyLanguage(currentLanguage)
+}
+
+function getTranslation(lang, key) {
+  if (!translations || !translations[lang]) {
+    return key;
+  }
+
+  const keys = key.split(".")
+  let currentTranslation = translations[lang]
+
+  // Traverse the keys to access the nested translation
+  for (const k of keys) {
+    if (currentTranslation[k]) {
+      currentTranslation = currentTranslation[k];
+    } else {
+      console.warn(`Translation key '${key}' not found for language '${lang}'.`);
+      return key;
+    }
+  }
+
+  return currentTranslation || key;
+}

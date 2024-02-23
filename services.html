@@ -70,131 +70,155 @@
       </div>
     </nav>
   </header>
+
   <!-- banner -->
-  <section class="banner">
-    <img src="assets/img/main/everypagebanner.webp" alt="banner">
-    <h1>Services</h1>
-  </section>
+    <section class="banner">
+      <img src="assets/img/main/everypagebanner.webp" alt="banner" />
+      <h1 class="lang" lang="en" data-translation-key="service.title">Services</h1>
+    </section>
 
-  <main>
-    <!-- Summary for service section -->
-    <div class="servicesummarytext" data-aos="fade-up">
-      <p>We offer bespoke consultancy services in all the sectors below, whatever your businesses wants and needs are we
-        can deliver on a Strategy to meet the requirements and achieve your goals.</p>
-      <div class="audio">
-        <div onclick="toggleAudio('serviceMainContentAudio')">
-          <span class="material-symbols-outlined">
-            volume_up
-          </span>
+    <main>
+      <!-- Summary for service section -->
+      <div class="servicesummarytext" data-aos="fade-up">
+        <p class="lang" lang="en" data-translation-key="service.banner">
+          We offer bespoke consultancy services in all the sectors below,
+          whatever your businesses wants and needs are we can deliver on a
+          Strategy to meet the requirements and achieve your goals.
+        </p>
+        <div class="audio">
+          <div onclick="toggleAudio('serviceMainContentAudio')">
+            <span class="material-symbols-outlined"> volume_up </span>
+          </div>
+          <audio
+            src="./assets/audio/servicesmaincontent.mp3"
+            id="serviceMainContentAudio"
+          ></audio>
         </div>
-        <audio src="./assets/audio/servicesmaincontent.mp3" id="serviceMainContentAudio"></audio>
-      </div>
-      <br>
-    </div>
-
-    <!-- Service main section -->
-    <div class="servicegrid">
-      <div class="grid1" >
-        <div class="video" data-aos="fade-right">
-          <video autoplay loop>
-            <source src="assets/video/services/servicevideo.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="list" data-aos="fade-left">
-          <h2>
-            Technical Services</h2>
-          <ul>
-            <li>
-              Technology
-            </li>
-            <li>
-              Strategy
-            </li>
-            <li>
-              Hardware
-            </li>
-            <li>
-              Platform/software development
-            </li>
-          </ul>
-        </div>
+        <br />
       </div>
 
-      <div class="grid2" >
-        <div class="text" data-aos="fade-up">
-          <h2>
-            Business Services </h2>
-          <ul>
-            <li>Sales and Marketing</li>
-            <li>Management</li>
-            <li>Leadership</li>
-            <li>Recruitment</li>
-
-
-          </ul>
-        </div>
-
-        <div class="image" data-aos="fade-down">
-          <img src="assets/img/services/mainservicepic.webp" alt="Service Photo">
-        </div>
-      </div>
-
-      <div class="servicemarketing" data-aos="fade-up">
-        <div class="servicemarketing-card">
-          <h3>MARKETING</h3>
-          <p>Review of marketing collateral, POS, websites & product content, creation of new product content and
-            presentations.</p>
-          <p>Support with planning marketing activities such as social media campaigns, shows and events to stand
-            out from the competition.</p>
-          <p>Expertise and advice on the Automotive Sector including Body builders, Rental / Leasing Companies,
-            Dealership groups and Accident Management.</p>
-          <p>Marketing & PR to maximise joint marketing initiatives.</p>
-        </div>
-      </div>
-      
-      <br>
-      <div class="servicesales" data-aos="fade-up" data-aos-delay="100">
-        <div class="servicesales-card">
-          <h3>SALES</h3>
-          <p> Strategy development to increase new business sales.
-            Telesales training and appointment setting with key target prospects within the OEM, Automotive,
-            Enterprise or SME sectors.
-            How to increase sales and profitability.
-            Retention and upsell strategies for your existing accounts.
-            Pricing review - How to price according to the current market, sector in the competitive landscape.
-            Closing the deal - Training & Support in closing key pipeline deals, removing blockers and overcoming
-            customer objections. </p>
-        </div>
-        <br>
-
-        <div class="serviceoperations" data-aos="fade-up" data-aos-delay="200">
-          <div class="serviceops-card">
-            <h3>OPERATIONS</h3>
-            <p>Sales order processing review - This is with a view to improving customer experience, making processes
-              more efficient, cost effective and streamlined.
-              Review of existing customer contracts, centralise data, comparison of key contract terms and pricing.
-              Recommendations to address any operational challenges.
-              Business processes from marketing through to billing and after sales support.</p>
-            <br>
+      <!-- Service main section -->
+      <div class="servicegrid">
+        <div class="grid1">
+          <div class="video" data-aos="fade-right">
+            <video autoplay loop>
+              <source
+                src="assets/video/services/servicevideo.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div class="list" data-aos="fade-left">
+            <h2 class="lang" lang="en" data-translation-key="service.subtitle1">Technical Services</h2>
+            <ul>
+              <li class="lang" lang="en" data-translation-key="service.sub-1-li-1">Technology</li>
+              <li class="lang" lang="en" data-translation-key="service.sub-1-li-2">Strategy</li>
+              <li class="lang" lang="en" data-translation-key="service.sub-1-li-3">Hardware</li>
+              <li class="lang" lang="en" data-translation-key="service.sub-1-li-4">Platform/software development</li>
+            </ul>
           </div>
         </div>
 
-        <div class="serviceproduct" data-aos="fade-up" data-aos-delay="300">
-          <div class="productinfo-card">
-  
-            <h3>PRODUCT & TECHNOLOGY</h3>
-            <p>Software / Platform Development - Video enablement for traditional telematics providers.</p>
-            <p>Product selection / technology - Telematics, Video Telematics hardware and software. We can assist you in
-              sourcing the most reliable hardware at the most competitive price.</p>
-              <br>
-            <p>OEM Sector requirements, Type approval, certifications / documentation, kit building, training,
-              installation,
-              labelling, packaging and shipping. Warranty & support and service requirements.</p>
+        <div class="grid2">
+          <div class="text" data-aos="fade-up">
+            <h2 class="lang" lang="en" data-translation-key="service.subtitle2">Business Services</h2>
+            <ul>
+              <li class="lang" lang="en" data-translation-key="service.sub-2-li-1">Sales and Marketing</li>
+              <li class="lang" lang="en" data-translation-key="service.sub-2-li-2">Management</li>
+              <li class="lang" lang="en" data-translation-key="service.sub-2-li-3">Leadership</li>
+              <li class="lang" lang="en" data-translation-key="service.sub-2-li-4">Recruitment</li>
+            </ul>
+          </div>
+
+          <div class="image" data-aos="fade-down">
+            <img
+              src="assets/img/services/mainservicepic.webp"
+              alt="Service Photo"
+            />
+          </div>
+        </div>
+
+        <div class="servicemarketing" data-aos="fade-up">
+          <div class="servicemarketing-card">
+            <h3 class="lang" lang="en" data-translation-key="service.marketing">MARKETING</h3>
+            <p class="lang" lang="en" data-translation-key="service.marketingPara1">
+              Review of marketing collateral, POS, websites & product content,
+              creation of new product content and presentations.
+            </p>
+            <p class="lang" lang="en" data-translation-key="service.marketingPara2">
+              Support with planning marketing activities such as social media
+              campaigns, shows and events to stand out from the competition.
+            </p>
+            <p class="lang" lang="en" data-translation-key="service.marketingPara3">
+              Expertise and advice on the Automotive Sector including Body
+              builders, Rental / Leasing Companies, Dealership groups and
+              Accident Management.
+            </p>
+            <p class="lang" lang="en" data-translation-key="service.marketingPara4">Marketing & PR to maximise joint marketing initiatives.</p>
+          </div>
+        </div>
+
+        <br />
+        <div class="servicesales" data-aos="fade-up" data-aos-delay="100">
+          <div class="servicesales-card">
+            <h3 class="lang" lang="en" data-translation-key="service.sales">SALES</h3>
+            <p class="lang" lang="en" data-translation-key="service.salesPara">
+              Strategy development to increase new business sales. Telesales
+              training and appointment setting with key target prospects within
+              the OEM, Automotive, Enterprise or SME sectors. How to increase
+              sales and profitability. Retention and upsell strategies for your
+              existing accounts. Pricing review - How to price according to the
+              current market, sector in the competitive landscape. Closing the
+              deal - Training & Support in closing key pipeline deals, removing
+              blockers and overcoming customer objections.
+            </p>
+          </div>
+          <br />
+
+          <div
+            class="serviceoperations"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="serviceops-card">
+              <h3 class="lang" lang="en" data-translation-key="service.operations">OPERATIONS</h3>
+              <p class="lang" lang="en" data-translation-key="service.operationsPara">
+                Sales order processing review - This is with a view to improving
+                customer experience, making processes more efficient, cost
+                effective and streamlined. Review of existing customer
+                contracts, centralise data, comparison of key contract terms and
+                pricing. Recommendations to address any operational challenges.
+                Business processes from marketing through to billing and after
+                sales support.
+              </p>
+              <br />
+            </div>
+          </div>
+
+          <div class="serviceproduct" data-aos="fade-up" data-aos-delay="300">
+            <div class="productinfo-card">
+              <h3 class="lang" lang="en" data-translation-key="service.product">PRODUCT & TECHNOLOGY</h3>
+              <p class="lang" lang="en" data-translation-key="service.productPara1">
+                Software / Platform Development - Video enablement for
+                traditional telematics providers.
+              </p>
+              <p class="lang" lang="en" data-translation-key="service.productPara2">
+                Product selection / technology - Telematics, Video Telematics
+                hardware and software. We can assist you in sourcing the most
+                reliable hardware at the most competitive price.
+              </p>
+              <br />
+              <p class="lang" lang="en" data-translation-key="service.productPara3">
+                OEM Sector requirements, Type approval, certifications /
+                documentation, kit building, training, installation, labelling,
+                packaging and shipping. Warranty & support and service
+                requirements.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
 
   <!-- Back to top button -->
   <button class="backtotop" id="backToTopBtn" onclick="scrollToTop()">

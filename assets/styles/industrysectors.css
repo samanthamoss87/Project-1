@@ -11,13 +11,9 @@
 * Autoprefixer: v10.4.7
 * Browsers: last 4 versions
 */
-.industrySection {
-  width: 100%;
-  padding: 3rem 5rem;
-}
-
 .industrysummary {
   width: 100%;
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,6 +25,10 @@
           align-items: center;
   gap: 5rem;
   text-align: center;
+  padding: 2rem 0;
+}
+.industrysummary p{
+  padding: 3rem 5rem;
 }
 
 .banner h1 {
@@ -76,35 +76,18 @@
 }
 
 .dataVisualization {
+  padding: 3rem 5rem;
   margin-top: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-.dataVisualizationText h2{
-  margin-bottom: 1.5rem;
+.dataVisualization h2 {
+  margin-bottom: 2rem;
 }
 
-.dataVisualizationText p{
-  width: 80%;
-  margin-bottom: 1.5rem;
-}
-
-.dataVisualizationText button{
-  border: 1px solid black;
-  outline: none;
-  background: none;
-  padding: .5rem 3rem;
-  transition: all .3s ease;
-}
-
-.dataVisualizationText button:hover{
-  background-color: black;
-}
-.dataVisualizationText button:hover a{
-  color: white;
-}
 /* Charts */
 .chartjs {
   height: 500px;
@@ -140,6 +123,14 @@
   cursor: pointer;
 }
 
+.chartDesc{
+  padding: 1rem 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
 /* Media queries for phone */
 @media screen and (max-width:768px) {
   .industrysummary {
@@ -165,10 +156,9 @@
     flex-direction: column;
     gap: 2rem;
   }
-  .dataVisualizationText {
-    text-align: center;
-  }
-  .dataVisualizationText p{
+  .dataVisualization h2 {
     width: 100%;
+    text-align: center;
+    font-size: 24px;
   }
 }

@@ -134,6 +134,18 @@ ul li {
   transition: all .3s ease;
 }
 
+#more {
+  outline: none;
+  cursor: pointer;
+  border: 1px solid blue;
+  background-color: white;
+  padding: 10px 20px;
+  transition: all .3s ease;
+}
+#more a {
+  color: blue;
+}
+
 #acceptBtn:hover {
   background-color: white;
   color: blue;
