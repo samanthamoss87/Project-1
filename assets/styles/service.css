@@ -170,6 +170,12 @@
     text-align: center;
   }
 
+  .list h2, 
+  .text h2 {
+    font-size: 18px;
+    margin-top: .5rem;
+  }
+
   .grid2 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
