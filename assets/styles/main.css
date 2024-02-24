@@ -488,6 +488,10 @@ footer .footerlinks a:hover {
   .audio.get {
     width: 100%;
   }
+
+  .banner h1 {
+    font-size: 2rem;
+  }
   
   .cookiePopup {
     padding: 1rem;
