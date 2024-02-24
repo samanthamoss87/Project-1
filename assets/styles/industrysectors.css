@@ -145,6 +145,7 @@
   }
   .industrysummary p {
     text-align: center;
+    padding: 0;
   }
   .industry .industry-card {
     width: 100%;
@@ -153,12 +154,21 @@
     font-size: 1.5rem;
   }
   .dataVisualization{
+    width: 100%;
     flex-direction: column;
     gap: 2rem;
+    padding: 1rem;
   }
   .dataVisualization h2 {
     width: 100%;
     text-align: center;
     font-size: 24px;
+  }
+  .extendedChartInfo{
+    width: 100%;
+  }
+
+  .chartjs{
+    width: 100%;
   }
 }
