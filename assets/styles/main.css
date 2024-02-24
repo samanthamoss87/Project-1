@@ -493,6 +493,17 @@ footer .footerlinks a:hover {
     padding: 1rem;
     height: auto;
   }
+  .cookiePopup .cookiePopupContent p{
+    font-size: .8rem;
+    margin: 20px 0;
+  }
+  .cookiePopup .cookiePopupContent .cookiePopupButton{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cookiePopup .cookiePopupContent .cookiePopupButton button {
+    width: 100%;
+  }
   nav .logo img {
     width: 30px;
     height: 30px;
