@@ -85,7 +85,8 @@ ul li {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-size: 3rem;
-  text-align: center
+  text-align: center;
+  color: white;
 }
 
 /* Cookie Popup Design */

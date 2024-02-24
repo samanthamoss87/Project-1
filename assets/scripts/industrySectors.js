@@ -7,7 +7,7 @@ const data = {
       borderWidth: 1,
     },
     {
-      label: "Unite Shipments",
+      label: "Unit Shipments",
       data: [280000, 320000, 380000, 440000, 520000, 610000],
       borderWidth: 1,
     },
