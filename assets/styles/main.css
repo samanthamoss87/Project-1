@@ -248,9 +248,9 @@ nav #hamBtn {
 
 .mobilemenu {
   display: none;
-  background-color: white;
+  background-color: #d9d9d9;
   position: absolute;
-  top: 60px;
+  top: 55px;
   left: 0;
   width: 100%;
   height: auto;
@@ -517,13 +517,18 @@ footer .footerlinks a:hover {
     display: block;
   }
 
-  nav .links,
-  nav .contactlink {
+  nav .links {
     display: none;
   }
 
   nav #hamBtn {
     display: block;
+  }
+  nav .language{
+    display: none;
+  }
+  nav .links {
+    display: none;
   }
 
   .mobilemenulinks {
@@ -536,6 +541,14 @@ footer .footerlinks a:hover {
             flex-direction: column;
     gap: 30px;
   }
+  .languageMobile {
+    margin-top: 2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.079);
+  }
+  .languageMobile p{
+    padding: .5rem 0;
+  }
+
 
   .hero video {
     max-width: 100%;
