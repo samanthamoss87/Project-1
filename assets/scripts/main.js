@@ -1,67 +1,67 @@
 // Audio play pause functions
 function toggleAudio(audioId) {
-    let audio = document.getElementById(audioId)
+  let audio = document.getElementById(audioId);
 
-    if (audio.paused) {
-        audio.play()
-    } else {
-        audio.pause()
-        audio.currentTime = 0
-    }
+  if (audio.paused) {
+      audio.play();
+  } else {
+      audio.pause();
+      audio.currentTime = 0;
+  }
 }
 
 
 // Functions for back to top button
-window.onscroll = function() {
-    scrollFunction()
-}
+window.onscroll = function () {
+  scrollFunction();
+};
 
 function scrollFunction() {
-    let backToTopBtn = document.getElementById("backToTopBtn")
+  let backToTopBtn = document.getElementById("backToTopBtn");
 
-    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-        backToTopBtn.style.visibility = "visible"
-    } else {
-        backToTopBtn.style.visibility = "hidden"
-    }
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+      backToTopBtn.style.visibility = "visible";
+  } else {
+      backToTopBtn.style.visibility = "hidden";
+  }
 }
 
 function scrollToTop() {
-    document.body.scrollTop = 0
-    document.documentElement.scrollTop = 0
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 
 // Nav functions
-const hamBtn = document.getElementById("hamBtn")
-const mobileMenu = document.getElementById("mobileMenu")
-const openBtn = document.getElementById("open")
-const closeBtn = document.getElementById("close")
+const hamBtn = document.getElementById("hamBtn");
+const mobileMenu = document.getElementById("mobileMenu");
+const openBtn = document.getElementById("open");
+const closeBtn = document.getElementById("close");
 
-hamBtn.addEventListener('click', function() {
-    const mobileMenu = document.getElementById("mobileMenu")
+hamBtn.addEventListener('click', function () {
+  const mobileMenu = document.getElementById("mobileMenu");
 
-    mobileMenu.classList.toggle("active")
+  mobileMenu.classList.toggle("active");
 
-    openBtn.classList.toggle("hide-icon")
-    closeBtn.classList.toggle("hide-icon")
-})
+  openBtn.classList.toggle("hide-icon");
+  closeBtn.classList.toggle("hide-icon");
+});
 
 
-// Change logo when browser is small
+// Change logo when the browser is small
 function updateImgSrc() {
-    const logo = document.getElementById("logo")
-    let windowWidth = window.innerWidth
+  const logo = document.getElementById("logo");
+  let windowWidth = window.innerWidth;
 
-    if (windowWidth<1000) {
-        logo.src = './assets/img/logo/RSLogo.webp'
-    } else {
-        logo.src = './assets/img/logo/RSVisionLogo.webp'
-    }
+  if (windowWidth < 1000) {
+      logo.src = './assets/img/logo/RSLogo.webp';
+  } else {
+      logo.src = './assets/img/logo/RSVisionLogo.webp';
+  }
 }
 
-updateImgSrc()
+updateImgSrc();
 
-window.addEventListener('resize', updateImgSrc)
+window.addEventListener('resize', updateImgSrc);
 
 
 // ==================================
@@ -95,23 +95,23 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   // Load translation from JSON file
   loadTranslations()
-    .then((loadedTranslations) => {
-      translations = loadedTranslations;
-      applyLanguage(currentLanguage);
-    })
-    .catch((error) => {
-      console.error("Error loading translations:", error);
-    });
+      .then((loadedTranslations) => {
+          translations = loadedTranslations;
+          applyLanguage(currentLanguage);
+      })
+      .catch((error) => {
+          console.error("Error loading translations:", error);
+      });
 });
 
 async function loadTranslations() {
   try {
-    const response = await fetch("./assets/scripts/data.json");
-    const translations = await response.json();
-    return translations;
+      const response = await fetch("./assets/scripts/data.json");
+      const translations = await response.json();
+      return translations;
   } catch (err) {
-    console.error("Error loading translations:", err);
-    throw err
+      console.error("Error loading translations:", err);
+      throw err;
   }
 }
 
@@ -121,55 +121,55 @@ function applyLanguage(lang) {
   setLanguageLocalStorage(lang);
 
   if (!translations) {
-    // If translations are not loaded yet, load them first
-    loadTranslations()
-      .then((loadedTranslations) => {
-        translations = loadedTranslations;
-        applyLanguage(currentLanguage);
-      })
-      .catch((error) => {
-        console.error("Error loading translations:", error);
-      });
-    return;
+      // If translations are not loaded yet, load them first
+      loadTranslations()
+          .then((loadedTranslations) => {
+              translations = loadedTranslations;
+              applyLanguage(currentLanguage);
+          })
+          .catch((error) => {
+              console.error("Error loading translations:", error);
+          });
+      return;
   }
 
   const lan = document.getElementsByClassName("lang");
   language.innerText = currentLanguage.toUpperCase();
 
   for (let i = 0; i < lan.length; i++) {
-    const element = lan[i];
-    const translationKey = element.getAttribute("data-translation-key");
-    // Fetch translation or update content based on JSON data
-    element.textContent = getTranslation(lang, translationKey);
+      const element = lan[i];
+      const translationKey = element.getAttribute("data-translation-key");
+      // Fetch translation or update content based on JSON data
+      element.textContent = getTranslation(lang, translationKey);
   }
 
   if (languagePopup.classList.contains("active")) {
-    languagePopup.classList.remove("active");
+      languagePopup.classList.remove("active");
   }
 }
 
 function changeLang(lang) {
   currentLanguage = lang;
   setLanguageLocalStorage(lang);
-  applyLanguage(currentLanguage)
+  applyLanguage(currentLanguage);
 }
 
 function getTranslation(lang, key) {
   if (!translations || !translations[lang]) {
-    return key;
+      return key;
   }
 
-  const keys = key.split(".")
-  let currentTranslation = translations[lang]
+  const keys = key.split(".");
+  let currentTranslation = translations[lang];
 
   // Traverse the keys to access the nested translation
   for (const k of keys) {
-    if (currentTranslation[k]) {
-      currentTranslation = currentTranslation[k];
-    } else {
-      console.warn(`Translation key '${key}' not found for language '${lang}'.`);
-      return key;
-    }
+      if (currentTranslation[k]) {
+          currentTranslation = currentTranslation[k];
+      } else {
+          console.warn(`Translation key '${key}' not found for language '${lang}'.`);
+          return key;
+      }
   }
 
   return currentTranslation || key;

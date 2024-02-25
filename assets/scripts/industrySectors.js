@@ -42,11 +42,11 @@ function handleChartClick(event, elements, chart) {
   if (elements) {
     elements.forEach((element) => {
       const i = element.index;
-      const dsIndex = element.datasetIndex
+      const dsIndex = element.datasetIndex;
       
       const dataLabel = chart.data.labels[i];
       const dataValue = chart.data.datasets[dsIndex].data[i];
-      const itemName = chart.data.datasets[dsIndex].label
+      const itemName = chart.data.datasets[dsIndex].label;
       const popupBlock = document.getElementById("extendedChartInfo");
       const popup = document.getElementById("chartInfoText");
       popupBlock.classList.remove("hidden");
