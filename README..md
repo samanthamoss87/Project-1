@@ -361,25 +361,31 @@ The Business Goals of RS Vision Consulting are:
 ### Cookies
 
 - Once I have learnt JavaScript I will adding a pop-up Cookie section once you are in the page. That the customer will have to accept or decline.
+- Project 2 - 
 
 ### Additional pages
 
 - Management Page, I have already designed the management page on my Figma. This will added underneath the about us section in the Nav once I have learned JavaScript.
 - Additional pages on industry Section, for more information on the indutry sector section on future implementations.
+- Project 2 - The management page has been completed and added into the Nav bar for easy navigation.
 
 ### Audio
 
 - In future my audio control bar will be a single speaker button, so that the user can click to play and pause, that will be implemented through JavaScript. This will improve the look and style of the pages.
+- Project 2 - The Audio future implementations for the speaker button has been completed. 
 
 ### Logo
 
 - A new logo will be designed in the future to improve style/look and brand awareness.
+- Project 2 - I  have designed a new logo to help with brand awareness. This will show on page in the header. It will also act as a home buttom to navigate back to the home page.
 ## Accessibility
 **Audio**
 
 - I created Audio script on the main sections of the website for Visually impaired people and people with learning difficulties. After doing some research and talking to people who was affected by been visually impairment and a Managing Director of a blind charity for children, they commented saying it was forward thinking and really positive approach to be inclusive of all individuals. They mentioned they wish all websites would adopt a similar approach. 
 - As my website expanded, I will increase the amount of Audio where required. 
 - I also created the NAV Bar to be fixed on all pages, so it is easy to access all elements no matter what page you are on.
+- Project 2 - I have created a speaker button instead of a control bar to improve style and look within the site.
+- Project 2 - I added Audio to the Management page to keep inline with the use ability of the site.
 
 
 # Technologies used
