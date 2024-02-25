@@ -53,9 +53,9 @@ function updateImgSrc() {
     let windowWidth = window.innerWidth
 
     if (windowWidth<1000) {
-        logo.src = './assets/img/logo/RSLogo.png'
+        logo.src = './assets/img/logo/RSLogo.webp'
     } else {
-        logo.src = './assets/img/logo/RSVisionLogo.png'
+        logo.src = './assets/img/logo/RSVisionLogo.webp'
     }
 }
 
