@@ -39,23 +39,14 @@ const ctx1 = document.getElementById("myChart");
 const chart1 = new Chart(ctx1, config);
 
 function handleChartClick(event, elements, chart) {
-  // console.log("hello", elements)
   if (elements) {
-    // console.log(elements)
     elements.forEach((element) => {
-
-      // console.log(element)
-
       const i = element.index;
       const dsIndex = element.datasetIndex
       
       const dataLabel = chart.data.labels[i];
       const dataValue = chart.data.datasets[dsIndex].data[i];
       const itemName = chart.data.datasets[dsIndex].label
-      // console.log(chart.data);
-      console.log(itemName);
-
-
       const popupBlock = document.getElementById("extendedChartInfo");
       const popup = document.getElementById("chartInfoText");
       popupBlock.classList.remove("hidden");
@@ -64,9 +55,8 @@ function handleChartClick(event, elements, chart) {
   }
 }
 
-var close = document.getElementById("closeBtn");
+const close = document.getElementById("closeBtn");
 const popupBlock = document.getElementById("extendedChartInfo");
-// console.log(popupBlock);
 
 close.addEventListener("click", () => {
   popupBlock.classList.add("hidden");

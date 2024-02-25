@@ -73,7 +73,6 @@ let language = document.getElementById("language");
 
 let currentLanguage = "EN";
 let translationsPromise = loadTranslations(); // Start loading translations immediately
-// console.log(translationsPromise)
 
 
 languageBtn.addEventListener("click", function () {
@@ -140,7 +139,6 @@ function applyLanguage(lang) {
   for (let i = 0; i < lan.length; i++) {
     const element = lan[i];
     const translationKey = element.getAttribute("data-translation-key");
-    console.log("From line 140",translationKey)
     // Fetch translation or update content based on JSON data
     element.textContent = getTranslation(lang, translationKey);
   }
