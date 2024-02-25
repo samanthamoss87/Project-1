@@ -483,6 +483,23 @@ footer .footerlinks a:hover {
   color: blue;
 }
 
+footer .socialIcons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+
+footer .socialIcons .social {
+  height: 2rem;
+  width: 2rem;
+}
+
+footer .footerlinks a:hover {
+  color: blue;
+}
+
 /* Media queries for phone */
 @media screen and (max-width:768px) {
   .audio.get {
