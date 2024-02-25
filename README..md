@@ -154,6 +154,7 @@ The Business Goals of RS Vision Consulting are:
 - These are the photos I purchased from istockphoto.com
 - I researched hundreds of photos to get the best image to represent the relevant area of my business.
 - They matched in line with the Businesses and the sectors we are working in.
+- Project 2 - The image of Richard Lane taken for the Management Page was a photo he took of himself for this site.
 
 ## Wireframes
 - [Link to Wireframes](https://www.figma.com/file/OR9ALOmeSW29mY6VmIh4jx/Webpage-frontcover?type=design&node-id=0%3A1&mode=design&t=VkHTziaTuZjlnrDv-1)
@@ -187,6 +188,8 @@ The Business Goals of RS Vision Consulting are:
 - This Nav bar is on all 5 pages with the minimal design. 
 - This Nav bar is fixed in place, so when you scroll down you can still access all pages.
 - If you click on the logo, it will take you back to the home page. 
+- Project 2 - There is now 6 pages, as there was a management page added for the user to get more detail of the people and there experience. 
+- Project 2 - The logo has also been re-deigned for greater brand awareness 
 
 <div align="center"> 
     <img src="assets/img/readmeImg/navbarinphone.png" alt="Nav bar in phone format">
@@ -212,6 +215,7 @@ The Business Goals of RS Vision Consulting are:
 - This footer is also accessible on all pages.
 - The footer also holds the Terms and Conditions, Privacy policy, Cookies Policy and Modern-Day Slavery Policy.
 - The is aligned into the middle of the screen and has a blue Hoover to highlight and access the links to the external documents.
+-  Project 2 - Facebook, Twitter and Linkedln social media links have been added 
 
 <div align="center"> 
     <img src="assets/img/readmeImg/footerinphone.png" alt="Footer in phone format">
@@ -246,7 +250,15 @@ The Business Goals of RS Vision Consulting are:
 - Knowing the image will draw the user eye, and adding some basic text I created a contact us href to draw them to the contact us page.
 
 <div align="center"> 
-    <img src="assets/img/readmeImg/indexflexboxs.png" alt="Flexboxesr">
+    <img src="assets/img/redme" alt="Slider">
+</div> 
+
+- Project 2 - I created a slider to create more end user functionality.
+- The slider also give the end user highlighted points from each page. 
+- It gives the end user another direct link into the Industry sector page.
+
+<div align="center"> 
+    <img src="assets/img/readmeImg/indexflexboxs.png" alt="Flexboxes">
 </div> 
 
 - I created the flex boxes to make it easy for the user to navigate from page to page, whilst also future proofing the site for changes.
@@ -264,6 +276,13 @@ The Business Goals of RS Vision Consulting are:
 - I wanted to make the about us easy to look at as there is more content to review.
 - The image was added for design and industry/page specific. 
 - I had broken down the text to make it easier to read and can speed read over certain areas the user is interested in.
+
+## Management Page
+<div align="center"> 
+    <img src="assets/img/readmeImg/" alt="Management Page">
+</div> 
+
+- Project 2 - The reason this was created was to give confidence to the end user 
 
 ## Services
 <div align="center"> 
@@ -285,6 +304,8 @@ The Business Goals of RS Vision Consulting are:
 - I created the page this way so it was easy to transition on devices.
 - I kept the wording in high level without bombarding the user so they take it in and make them contact us for more information. 
 - I decided not to use images on this page as I didn't want to take away from the content and the design itself still made the style look nice.
+- Project 2 - I created an interactave google chart to show historical and predicted future growth.
+- Project 2 - The google chart allows users to select the metrics of interest and select data from one or multiple years.  
 
 ## Contact page
 <div align="center"> 
@@ -294,6 +315,8 @@ The Business Goals of RS Vision Consulting are:
 - I created a contact us form where the user could pick a specific area there want more information on and a text area where they can go into more details.
 - They cannot submit the form unless all areas are filled in.
 - I added RS Vision Consulting information for them to contact us through email if they require and they can also research into the business if they require to do so.
+- Project 2 - Once all the areas of the contact us form has been filled in the submit button will highlight blue to notify the end user the form is ready to submit.
+- Project 2 - Once the form is submitted the end user will recevie a pop up that says thank you for contacting RS Vision Consulting and we will be in contact with you in 48 hours. 
 
 ## Cookie Policy
 <div align="center"> 
@@ -339,10 +362,13 @@ The Business Goals of RS Vision Consulting are:
 ### Contact Us
 
 - Once I have learnt JavaScript I will be making the submit button talk directly to my email, so I will receive all notifications from user my email. 
+- Project 2 - The submit button talking directly to my email, so I will receive all notifications has been complete. 
+- Project 2 - I would like to expand on this by adding a automated Bot, that can answer questions directly.
 
 ### Audio 
 
-- I will be creating Audio on all sections to help improve further accessibility for visual impaired and people with learning difficulties. 
+- I will be creating Audio on all sections to help improve further accessibility for visual impaired and people with learning difficulties.
+- Project 2 - I would like to add the Audio in different Languages in my future developement. 
 
 ### Industry Page Flexboxes
 
@@ -353,6 +379,7 @@ The Business Goals of RS Vision Consulting are:
 ### Language
 
  - In the Nav bar (on every above 768px) the Contact us link that is in the right-hand corner will move over and be centralised and there will be a language change option. So, customer around the world will be able to read the Content in their language. As seen in my Figma design.
+ - Project 2 - The language option of French has been added but i would like to implement more Lanuage options 
 
 ### Search Section
  - In the Nav bar (on every above 768px) the Contact us link that is in the right-hand corner will move into the middle and next to the language section will be a magnifying glass for the search section. As seen in my Figma design.
@@ -361,7 +388,8 @@ The Business Goals of RS Vision Consulting are:
 ### Cookies
 
 - Once I have learnt JavaScript I will adding a pop-up Cookie section once you are in the page. That the customer will have to accept or decline.
-- Project 2 - 
+- Project 2 - I have created a cookie pop up once you have logged in, which will give the end user an option to Accept, Decline or xxxxxx where they will get the information from the cookie policy. 
+- Project 2 - xxxxxxxxxxx
 
 ### Additional pages
 
@@ -378,6 +406,7 @@ The Business Goals of RS Vision Consulting are:
 
 - A new logo will be designed in the future to improve style/look and brand awareness.
 - Project 2 - I  have designed a new logo to help with brand awareness. This will show on page in the header. It will also act as a home buttom to navigate back to the home page.
+
 ## Accessibility
 **Audio**
 
