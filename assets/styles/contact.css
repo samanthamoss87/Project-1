@@ -88,6 +88,50 @@
   margin-bottom: 2rem;
 }
 
+.thanksPopup{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #d9d9d9;
+  padding: 2rem;
+  box-shadow: 0 0 50px rgba(0, 0, 0, .4);
+  border-radius: 10px;
+}
+
+.thanksPopup.active {
+  display: block;
+}
+
+.thanksPopup.hidden {
+  display: none;
+}
+
+.thanksPopupWrapper{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.thanksPopupText {
+  width: 100;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+.closeIcon{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: red;
+  cursor: pointer;
+}
+
 /* Media queries for phone */
 @media screen and (max-width:768px) {
   .contact {
@@ -105,6 +149,11 @@
   }
   .contactInfo {
     width: 100%;
+  }
+  .thanksPopup{
+    padding: 1rem;
+    width: 100%;
+    height: 80%;
   }
   
 }

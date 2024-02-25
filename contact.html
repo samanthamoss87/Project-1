@@ -15,7 +15,7 @@
 
   <!-- Script for Email js -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script type="text/javascript" src="./assets/scripts/contact.js"></script>
+  
 
   <!-- Animate on scroll -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -150,6 +150,18 @@
     </section>
   </main>
 
+  <!-- Thanks popup -->
+  <div class="thanksPopup hidden" id="thanksPopup">
+    <div class="thanksPopupWrapper">
+      <div class="thanksPopupText">
+        <p>Thank you for contacting RS Vision Consulting. We will be contact within 48 hours.</p>
+      </div>
+      <div class="closeIcon" id="closeBtn" onclick="closeThanksPopup()">
+        <span class="material-symbols-outlined"> close </span>
+      </div>
+    </div>
+  </div>
+
   <!-- Back to top button -->
   <button class="backtotop" id="backToTopBtn" onclick="scrollToTop()">
     <span class="material-symbols-outlined">
@@ -171,6 +183,7 @@
   <script>
     AOS.init();
   </script>
+  <script src="./assets/scripts/contact.js"></script>
 </body>
 
 </html>
