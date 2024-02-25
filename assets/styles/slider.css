@@ -24,12 +24,12 @@
     color: black;
 }
 
-.slide .sliderStaticContent button{
+.slide .sliderStaticContent .findmoreBtn{
     border: 1px solid black;
     background: none;
     padding: .5rem 1.5rem;
 }
-.slide .sliderStaticContent button a {
+.slide .sliderStaticContent .findmoreBtn a {
     color: black;
 }
 .swiper {
