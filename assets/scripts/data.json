@@ -114,7 +114,7 @@
     "cookiePopup": {
       "text": "We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies."
     },
-    "cookie" : {
+    "cookie": {
       "title": "RS Vision Consulting Limited - Cookie Policy",
       "paragraph1": "Please read this cookie policy ('cookie policy', 'policy') carefully before using our website rs-visionconsulting.co.uk ('website', 'service') operated by RS Vision Consulting Limited. What are cookies? Cookies are simple text files that are stored on your computer or mobile device by a website’s server. Each cookie is unique to your web browser. It will contain some anonymous information such as a unique identifier, website’s domain name, and some digits and numbers. What types of cookies do we use?",
       "title1": "Necessary cookies",
@@ -258,7 +258,7 @@
       "title4Para": "Si vous souhaitez restreindre ou bloquer les cookies définis par notre site Web, vous pouvez le faire via les paramètres de votre navigateur. Alternativement, vous pouvez visiter www.internetcookies.com, qui contient des informations complètes sur la manière de le faire sur une grande variété de navigateurs et d'appareils. Vous y trouverez des informations générales sur les cookies et des détails sur la manière de supprimer les cookies de votre appareil.",
       "title5": "Nous contacter",
       "title5Para": "Si vous avez des questions sur cette politique ou notre utilisation des cookies, veuillez nous contacter à RS Vision Consulting Ltd E: info@rs-visionconsulting.co.uk"
-  },  
+    }
 
   }
 }
