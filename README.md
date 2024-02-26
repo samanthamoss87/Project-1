@@ -277,6 +277,10 @@ The Business Goals of RS Vision Consulting are:
 - The image was added for design and industry/page specific. 
 - I had broken down the text to make it easier to read and can speed read over certain areas the user is interested in.
 
+- An FAQ (Frequently Asked Questions) section was added to the About us page to provide further user interactivity on the website. 
+- This also provides answers to some of the key questions relating to video telematics technology to demonstrate expertise to potential consultancy clients. 
+- The questions focus in on some of the key points where customers may have experienced challenges and if not highlights some of the areas which should be carefully considered.
+
 ## Management Page
 <div align="center"> 
     <img src="assets/img/readmeImg/" alt="Management Page">
