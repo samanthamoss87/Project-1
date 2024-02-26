@@ -282,7 +282,11 @@ The Business Goals of RS Vision Consulting are:
     <img src="assets/img/readmeImg/" alt="Management Page">
 </div> 
 
-- Project 2 - The reason this was created was to give confidence to the end user 
+- Project 2 - The reason this was created was to give confidence to the end user. 
+- 1) Provide confidence in the management teams ability to provide consultancy services.
+- 2) Extend upon the information on the About Us page to provide more specific information on the management team.
+- 3) Provide information on the background of CEO including his skills and experience.
+- 4) Provision of information on other senior team members.
 
 ## Services
 <div align="center"> 
