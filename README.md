@@ -285,10 +285,18 @@ The Business Goals of RS Vision Consulting are:
 - This also provides answers to some of the key questions relating to video telematics technology to demonstrate expertise to potential consultancy clients. 
 - The questions focus in on some of the key points where customers may have experienced challenges and if not highlights some of the areas which should be carefully considered.
 
+<div align="center"> 
+    <img src="assets/img/readmeImg/faq.png" alt="About us page">
+</div>
+
+- An FAQ (Frequently Asked Questions) section was added to the Services page to provide further user interactivity on the website. 
+- This also provides answers to some of the key questions relating to video telematics technology to demonstrate expertise to potential consultancy clients. - The questions focus in on some of the key points where customers may have experienced challenges and if not highlights some of the areas which should be carefully considered
+
 ## Management
 <div align="center"> 
     <img src="assets/img/readmeImg/management.png" alt="Management Page">
 </div> 
+.
 
 - Project 2 - The reason this was created was to give confidence to the end user. 
 - 1) Provide confidence in the management teams ability to provide consultancy services.
