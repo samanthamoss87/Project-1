@@ -28,7 +28,7 @@
     border: 1px solid black;
     background: none;
     padding: .5rem 1.5rem;
-    width: 300px;
+    max-inline-size: 300px;
 }
 .slide .sliderStaticContent .findmoreBtn a {
     color: black;

@@ -22,7 +22,7 @@
     - [Banner](#index-page)
     - [Index Page](#index-page)
     - [About us](#about-us)
-    - [Management Page] (#management-page)
+    - [Management](#management)
     - [Services](#services)
     - [Industry Sectors](#industry-sectors)
     - [Contact Page](#contact-page)
@@ -67,6 +67,9 @@
 7. [Credits](#credits)
     - [Acknowledgement](#acknowledgement)
 8. [Contact](#contact)
+
+# Project 2 - Important Notes
+I made the decision to implement Project 2 (JavaScript) on top of my Project 1 website. The reason for this is the website was developed for my partners business so is going to be a live published website from March 2024. The use of JavaScript is essential for feedback forms to function, supporting validation rules and re-directing completed forms to the 'Thank you for your enquiry' page. Further the submit button also changes colour to indicate the form is complete having met the validation criteria so is now ready to be submitted. My partner intends to conduct business in France, so the French language option was implemented. The FAQ's section was added on the 'About Us' page to provide interactivity around some of the key questions and considerations clients should factor in when selecting a video telematics partner demonstrating industry expertise. Cookie acceptance pop-ups are also a requirement to comply with Cookie rules, before the website was able to be published. This also utilises JavaScript. Some useful industry data was added to the industry page using an interactive chart which allows uses to select specific year/s of interest displaying the relevant data/results within the interactive chart. A slider displaying key messages regarding his company was also added to the Index/home page of the website. We also added a button which takes the user back to the top of the page which also uses JavaScript. In summary I felt this was a good and practical application of JavaScript which i believe meets the required course criteria in real-world application hence my decision to implement Project 2 over my Project 1 website.
 
 # User experience
 ## Goals
@@ -193,7 +196,7 @@ The Business Goals of RS Vision Consulting are:
 - Project 2 - The logo has also been re-deigned for greater brand awareness 
 
 <div align="center"> 
-    <img src="assets/img/readmeImg/navbarinphone.png" alt="Nav bar in phone format">
+    <img src="assets/img/readmeImg/navbariphone.png" alt="Nav bar in phone format">
 </div> 
 
 - This is the look of the nav bar in the format of a phone
@@ -251,7 +254,7 @@ The Business Goals of RS Vision Consulting are:
 - Knowing the image will draw the user eye, and adding some basic text I created a contact us href to draw them to the contact us page.
 
 <div align="center"> 
-    <img src="assets/img/redme" alt="Slider">
+    <img src="assets/img/readmeImg/slider.png" alt="Slider">
 </div> 
 
 - Project 2 - I created a slider to create more end user functionality.
@@ -282,9 +285,9 @@ The Business Goals of RS Vision Consulting are:
 - This also provides answers to some of the key questions relating to video telematics technology to demonstrate expertise to potential consultancy clients. 
 - The questions focus in on some of the key points where customers may have experienced challenges and if not highlights some of the areas which should be carefully considered.
 
-## Management Page
+## Management
 <div align="center"> 
-    <img src="assets/img/readmeImg/" alt="Management Page">
+    <img src="assets/img/readmeImg/management.png" alt="Management Page">
 </div> 
 
 - Project 2 - The reason this was created was to give confidence to the end user. 
@@ -307,6 +310,9 @@ The Business Goals of RS Vision Consulting are:
 <div align="center"> 
     <img src="assets/img/readmeImg/readmeindustry.png" alt="Industry page">
 </div> 
+<div align="center"> 
+    <img src="assets/img/readmeImg/chart.png" alt="Data Chart">
+</div> 
 
 - I created the content in the flex boxes for future implementations.
 - I also created the information in the flex boxes so it highlights the specific area for them to review.
@@ -318,7 +324,7 @@ The Business Goals of RS Vision Consulting are:
 
 ## Contact page
 <div align="center"> 
-    <img src="assets/img/readmeImg/contactusform.png" alt="Contact page">
+    <img src="assets/img/readmeImg/contactus.png" alt="Contact page">
 </div> 
 
 - I created a contact us form where the user could pick a specific area there want more information on and a text area where they can go into more details.

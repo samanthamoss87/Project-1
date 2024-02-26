@@ -21,7 +21,7 @@ const swiper = new Swiper(".swiper", {
   direction: "vertical",
   loop: true,
   autoplay: {
-    delay: 3000,
+    delay: 5000,
   },
   effect: "coverflow",
   slidesPerView: 3,
