@@ -22,6 +22,7 @@
     - [Banner](#index-page)
     - [Index Page](#index-page)
     - [About us](#about-us)
+    - [Management Page] (#management-page)
     - [Services](#services)
     - [Industry Sectors](#industry-sectors)
     - [Contact Page](#contact-page)
