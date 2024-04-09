@@ -42,7 +42,7 @@ function openMobileMenu() {
 
   openBtn.classList.toggle("hide-icon");
   closeBtn.classList.toggle("hide-icon");
-};
+}
 
 
 // Change logo when the browser is small
@@ -70,7 +70,8 @@ const languagePopup = document.getElementById("langOptions");
 let language = document.getElementById("language");
 
 let currentLanguage = "EN";
-let translationsPromise = loadTranslations(); // Start loading translations immediately
+// Start loading translations immediately
+loadTranslations();
 
 
 languageBtn.addEventListener("click", function () {
@@ -87,7 +88,23 @@ function getLanguageLocalStorage() {
   return localStorage.getItem("userLanguage");
 }
 
-document.addEventListener("DOMContentLoaded", async function () {
+let translations = null;
+
+function loadTranslations() {
+  return fetch('./assets/scripts/data.json')
+    .then(resposne => {
+      if (!resposne.ok) {
+        throw new Error('Network response was not ok.');
+      }
+      return resposne.json();
+    })
+    .catch( err => {
+      console.error('Error loading translations:', err);
+      throw err;
+    });
+}
+
+document.addEventListener("DOMContentLoaded", function () {
   // Initialize the currentLanguage from local storage
   currentLanguage = getLanguageLocalStorage() || "en";
 
@@ -101,17 +118,6 @@ document.addEventListener("DOMContentLoaded", async function () {
           console.error("Error loading translations:", error);
       });
 });
-
-async function loadTranslations() {
-  try {
-      const response = await fetch("./assets/scripts/data.json");
-      const translations = await response.json();
-      return translations;
-  } catch (err) {
-      console.error("Error loading translations:", err);
-      throw err;
-  }
-}
 
 function applyLanguage(lang) {
   currentLanguage = lang;
