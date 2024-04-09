@@ -45,12 +45,32 @@ main {
 }
 
 
+@media screen and (max-width:1024px) {
+    .richard {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .richard h2 {
+        text-align: center;
+    }
+    .richard #image{
+        width: 40%;
+    }
+}
+
+
 @media screen and (max-width:768px) {
     main{
         padding: 2rem 1rem;
     }
     .richard {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .richard h2 {
+        text-align: center;
     }
     .samantha{
         flex-direction: column;
@@ -60,7 +80,7 @@ main {
     }
 
     .richard #image{
-        width: 100%;
+        width: 80%;
     }
 
 }
