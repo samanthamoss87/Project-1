@@ -52,7 +52,7 @@ function updateImgSrc() {
   const logo = document.getElementById("logo");
   let windowWidth = window.innerWidth;
 
-  if (windowWidth < 1000) {
+  if (windowWidth < 1025) {
       logo.src = './assets/img/logo/RSLogo.webp';
   } else {
       logo.src = './assets/img/logo/RSVisionLogo.webp';
