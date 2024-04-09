@@ -94,6 +94,9 @@
   width: 500px;
   position: relative;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .extendedChartInfo{
