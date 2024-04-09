@@ -36,7 +36,7 @@ const config = {
 
 const ctx1 = document.getElementById("myChart");
 
-const chart1 = new Chart(ctx1, config);
+new Chart(ctx1, config);
 
 function handleChartClick(event, elements, chart) {
   if (elements) {

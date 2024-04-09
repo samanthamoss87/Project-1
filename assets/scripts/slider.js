@@ -16,7 +16,7 @@ contentArray.forEach((sentence) => {
   swiperWrapper.appendChild(swiperSlide);
 });
 
-const swiper = new Swiper(".swiper", {
+new Swiper(".swiper", {
   // Optional parameters
   direction: "vertical",
   loop: true,
