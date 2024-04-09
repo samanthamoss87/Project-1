@@ -501,6 +501,7 @@ python3 -m http.server
 - CSS has been validated with https://jigsaw.w3.org/ and auto-prefixed with https://autoprefixer.github.io/.
 - Links checked with https://validator.w3.org/checklink.
 - I also used https://pagespeed.web.dev/
+- Javascript codes have been validated with https://jshint.com/
 
 ### General Testing 
 - Each feature was testing when it implemented into the code on both safari and chrome.
