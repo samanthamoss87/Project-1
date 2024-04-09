@@ -32,19 +32,17 @@ function scrollToTop() {
 }
 
 // Nav functions
-const hamBtn = document.getElementById("hamBtn");
-const mobileMenu = document.getElementById("mobileMenu");
-const openBtn = document.getElementById("open");
-const closeBtn = document.getElementById("close");
 
-hamBtn.addEventListener('click', function () {
+function openMobileMenu() {
   const mobileMenu = document.getElementById("mobileMenu");
+  const openBtn = document.getElementById("open");
+  const closeBtn = document.getElementById("close");
 
   mobileMenu.classList.toggle("active");
 
   openBtn.classList.toggle("hide-icon");
   closeBtn.classList.toggle("hide-icon");
-});
+};
 
 
 // Change logo when the browser is small
