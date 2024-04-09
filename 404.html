@@ -1,12 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/img/main/favicon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/main/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/styles/main.css" />
     <title>Page Not Found</title>
-</head>
-<body>
-    <h1>page not found</h1>
-</body>
+    <style>
+        main{
+            height: 85vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main div h1{
+            text-align: center;
+            font-size: 3rem;
+            color: rgb(250, 36, 79);
+        }
+        main div h2{
+            font-size: 2.5rem;
+            color: rgb(43, 43, 43);
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="./assets/img/logo/RSVisionLogo.webp"
+              alt="Logo"
+              id="logo"
+            />
+          </a>
+        </div>
+
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="management.html">Management</a>
+          <a href="industrysectors.html">Industry</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact us</a>
+        </div>
+
+        <div class="language">
+          <div class="langIcon" id="changeLangBtn">
+            <span class="material-symbols-outlined"> expand_more </span>
+            <span id="language">EN</span>
+          </div>
+
+          <div class="langOptions" id="langOptions">
+            <p onclick="changeLang('en')">English</p>
+            <p onclick="changeLang('fr')">French</p>
+          </div>
+        </div>
+
+        <!-- toggle icon -->
+        <div id="hamBtn">
+          <span class="material-symbols-outlined" id="open"> menu </span>
+          <span class="material-symbols-outlined hide-icon" id="close">
+            close
+          </span>
+        </div>
+
+        <!-- mobile menu -->
+        <div class="mobilemenu" id="mobileMenu">
+          <div class="mobilemenulinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="management.html">Management</a>
+            <a href="industrysectors.html">Industry</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact us</a>
+          </div>
+
+          <div class="languageMobile">
+            <p onclick="changeLang('en')">English</p>
+            <p onclick="changeLang('fr')">French</p>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <h1>404</h1>
+        <h2>The Page is Not Available</h2>
+      </div>
+    </main>
+
+    <footer>
+      <p>Follow Us on Social Media</p>
+      <div class="socialIcons">
+        <div class="social">
+          <a
+            href="https://www.facebook.com/profile.php?id=61556939123092"
+            aria-label="Visit Our Facebook Page"
+            target="_blank"
+          >
+            <svg
+              height="100%"
+              style="
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                stroke-linejoin: round;
+                stroke-miterlimit: 2;
+              "
+              version="1.1"
+              viewBox="0 0 512 512"
+              width="100%"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="social">
+          <a
+            href="https://www.linkedin.com/company/rs-vision-consulting/about/?viewAsMember=true"
+            aria-label="Visit Our Linkedin Page"
+            target="_blank"
+          >
+            <svg
+              height="100%"
+              style="
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                stroke-linejoin: round;
+                stroke-miterlimit: 2;
+              "
+              version="1.1"
+              viewBox="0 0 512 512"
+              width="100%"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="social">
+          <a
+            href="https://twitter.com/rsvisionconsult"
+            aria-label="Visit Our Twitter Page"
+            target="_blank"
+          >
+            <svg
+              height="100%"
+              style="
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                stroke-linejoin: round;
+                stroke-miterlimit: 2;
+              "
+              version="1.1"
+              viewBox="0 0 512 512"
+              width="100%"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footerlinks">
+        <a href="termsandconditions.html" target="_blank"
+          >Terms and Conditions</a
+        >
+        <a href="privacypolicy.html" target="_blank">Privacy Policy</a>
+        <a href="cookies.html" target="_blank">Cookies</a>
+        <a href="moderndayslavery.html" target="_blank"
+          >Modern Slavery Statement</a
+        >
+      </div>
+    </footer>
+  </body>
 </html>
