@@ -496,6 +496,18 @@ footer .socialIcons .social {
   width: 2rem;
 }
 
+footer .socialIcons .social a svg:first-child{
+  fill: #1877F2;
+}
+
+footer .socialIcons .social a svg:nth-child(2){
+  fill: 	#0077B5;
+}
+
+footer .socialIcons .social a svg:nth-child(3){
+  fill: 	#1DA1F2;
+}
+
 footer .footerlinks a:hover {
   color: blue;
 }
